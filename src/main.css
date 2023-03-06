@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/*Css rules for Montserrat*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*css rules for PTF serif*/
+/*font-family: 'PT Serif', serif;*/
+body {
+    margin:auto;
+    background-color: #ececec;
+}
+
+
+nav {
+    margin:auto;
+    background-color: #023E73;
+    color: lightgray;
+}
+ul {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    text-decoration: none;
+    color: lightgray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #74BAC1;
+  }
+  
+footer {
+    margin:auto;
+    background-color: #023E73;
+    color: lightgray;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  padding-left: 15vh;
+  color: #292238;
+}
+
+/*classes*/
+  .main_image-container{
+    width:100%;
+    height:50vh;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background_image {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.90;
+}
+

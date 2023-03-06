@@ -1,47 +1,24 @@
-<style>
 
-button {
-    background-color: #e293b3;
-    color:white;
-}
-button:hover{
-    opacity: 0.7;
-}
-</style>
+<nav>
+    <ul>
+        <li><a href="/"> Home</a> </li>
+        <li><a href="/about"> About</a></li>
+        <li><a href="/Video_Games">Video Games</a></li>
+        <li></li>
+    </ul>
+</nav>
+
+<div class="main_image-container">
+    <img src="images/tiles-shapes-2617112_1920.jpg" class="main_image" alt="">
+</div>
+<br>
+   <p class="p">Hello I am some text</p> 
+
 <script>
-
-let count =0;
-let point =0;
-let reset =0;
-function increment_count() {
-    count++
-    button_reset()
-}
-
-function button_reset(){
-    if (count===6) {
-        count=0
-        reset++
-
-    }
-    points()
-
-}
-function points() {
-    
-        point++
-
-}
+    import '../main.css';
 </script>
+<slot />
 
-<button on:click={increment_count}>
-     
-<h1> Clicked {count} {count===1? "time": "times"}</h1>
 
-</button>
 
-<p>You have {reset} {reset===1? "point": "points"}</p>
 
-<body>
-
-</body>
