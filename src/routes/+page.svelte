@@ -1,23 +1,32 @@
+<link rel="stylesheet" href="src\main.css"> 
 
 <nav>
     <ul>
         <li><a href="/"> Home</a> </li>
-        <li><a href="/about"> About</a></li>
-        <li><a href="/Video_Games">Video Games</a></li>
+        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/about"> About Neoni</a></li>
         <li></li>
     </ul>
 </nav>
 
 <div class="main_image-container">
-    <img src="images/tiles-shapes-2617112_1920.jpg" class="main_image" alt="">
+    <img class="background_image" src="\images\Neoni home page image.jpg"  alt="">
 </div>
 <br>
-   <p class="p">Hello I am some text</p> 
+   <h1>Welcome To <a href="https://www.youtube.com/watch?v=oILljVDOkwY">Doomsday</a></h1>
 
-<script>
-    import '../main.css';
-</script>
-<slot />
+
+
+   <footer>
+    <ul>
+        <li><a href="/"> Home</a> </li>
+        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/about"> About Neoni</a></li>
+        <li></li>
+    </ul>
+</footer>
+
+
 
 
 
