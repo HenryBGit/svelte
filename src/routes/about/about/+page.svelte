@@ -12,3 +12,17 @@
 
 <h2>Neoni's Songs</h2>
 <p>Neoni is a Talanted song artist </p>
+
+
+
+
+
+
+<footer>
+    <ul>
+        <li><a href="/"> Home</a> </li>
+        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/about"> About Neoni</a></li>
+        <li></li>
+    </ul>
+</footer>

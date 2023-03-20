@@ -77,7 +77,6 @@ footer li a:hover {
 /*End of the Footer code*/
 
 /*Start of the text code*/
-
 p {
 	font-family: 'PT Serif', serif;
 	padding-left: 15vh;
@@ -89,6 +88,19 @@ h1 {
 	text-align: center;
 	font-size: 8.5vh;
 	color: #F28444;
+}
+
+p a {
+	font-family: 'PT Serif', serif;
+	color: #292238;
+	font-size: 3.0vh;
+	text-decoration: none;
+}
+p a:hover {
+	text-decoration: underline;
+}
+p a:visited {
+	color: purple;
 }
 h1 a {
 	font-family: 'PT Serif', serif;
@@ -112,9 +124,11 @@ table th td {
 	justify-content: center;
 	justify-items: center;
 }
-image {
-	width: 100%;
-}
+img {
+		width: auto; 
+		max-height: 100%; 
+	   }
+
 /*Classes*/
 
 .main_image-container {
@@ -136,29 +150,35 @@ image {
 	grid-template-rows: 2;
 	grid-row: auto;
 	grid-column: auto;
+	object-fit: cover;
 }
-
+/*Css grid*/
 .item-1 {
+	padding-left: 15vh;
 	grid-column: 1 / span 2;
 	grid-row: 1;
 }
 
 .item-2 {
+	padding-left: 15vh;
 	grid-column: 2 / span 2;
 	grid-row: 1;
 }
 
 .item-3 {
+	padding-left: 15vh;
 	grid-column: 3 / span 2;
 	grid-row: 1;
 }
 
 .item-4 {
+	padding-left: 15vh;
 	grid-column: 1/ span 2;
 	grid-row: 2;
 }
 
 .item-5 {
+	padding-left: 15vh;
 	grid-column: 2 / span 2;
 	grid-row: 2;
 }
