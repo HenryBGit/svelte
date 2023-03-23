@@ -11,9 +11,9 @@
 
 
 <div class="main_image-container">
-    <img class="background_image" src="\images\Neoni home page image.jpg"  alt=""> <!--Crop the image-->
+    <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt=""> <!--Crop the image-->
 </div>
-<button on:click={myFunction}>Toggle dark mode</button>
+<button on:click={myFunction}><img src="\images\sunjpg.jpg" alt=""></button>
 <script>
 function myFunction() {
    var element = document.body;

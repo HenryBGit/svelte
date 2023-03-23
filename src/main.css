@@ -37,7 +37,7 @@ nav ul {
 nav li a {
 	font-family: 'Montserrat', sans-serif;
 	display: block;
-	color: white;
+	color: #ececec;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -52,7 +52,7 @@ nav li a:hover {
 
 footer {
 	background-color: #F22771;
-	color: lightgray;
+	color: #ececec;
 }
 footer ul {
 	display: flex;
@@ -67,7 +67,7 @@ footer ul {
 footer li a {
 	font-family: 'Montserrat', sans-serif;
 	display: block;
-	color: white;
+	color: #ececec;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -120,24 +120,6 @@ img {
 	   }
 
 /*Classes*/
-.dark-mode {
-	background-color:#3d3d3d;
-	color: white;
-  }
-.dark-mode a {
-	color: #F22771;
-}
-
-
-.anchor_tag1 {
-	font-family: 'PT Serif', serif;
-	padding-left: 15vh;
-	color: #292238;
-	font-size: 3.0vh;
-	text-decoration: none;
-}
-
-
 .main_image-container {
 	width: 100%;
 	height: 50vh;
@@ -205,3 +187,25 @@ img {
 	grid-area:2 / 2 / span 1 / span 2
 	/*Starting on row 2 and column 2 and it will span 1 row and 1 colum*/
 }
+
+/*Start of Dark Mode*/
+.dark-mode {
+	background-color:#7e776e;
+	color: white;
+  }
+.dark-mode a {
+	color: #bf9c25;
+}
+.dark-mode a:hover {
+	color: #A429A6;
+}
+.dark_mode nav {
+	background-color: #292238;
+}
+.dark_mode nav a{
+	background-color: #292238;
+}
+.dark_mode nav a:hover{
+	background-color: white;
+}
+/*End of Dark Mode*/
