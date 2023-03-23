@@ -44,6 +44,7 @@ nav li a {
 }
 nav li a:hover {
 	background-color: #A429A6;
+	color:#ececec;
 }
 /*End of the Navigation Bar code*/
 
@@ -73,6 +74,7 @@ footer li a {
 }
 footer li a:hover {
 	background-color: #A429A6;
+	color: #ececec;
 }
 /*End of the Footer code*/
 
@@ -82,7 +84,9 @@ p {
 	padding-left: 15vh;
 	color: #292238;
 	font-size: 3.0vh;
+	text-decoration: none;
 }
+
 h1 {
 	font-family: 'Crimson Text', serif;
 	text-align: center;
@@ -90,25 +94,17 @@ h1 {
 	color: #F28444;
 }
 
-p a {
-	font-family: 'PT Serif', serif;
-	color: #292238;
-	font-size: 3.0vh;
-	text-decoration: none;
-}
-p a:hover {
-	text-decoration: underline;
-}
-p a:visited {
-	color: purple;
+a img:hover {
+	opacity: 0.7;
 }
 h1 a {
 	font-family: 'PT Serif', serif;
 	color: goldenrod;
 	text-decoration: none;
 }
-h1 a:hover {
-	background-color: #A429A6;
+a:hover {
+	color: #A429A6;
+	text-decoration: none;
 }
 
 h2 {
@@ -118,18 +114,29 @@ h2 {
 	color: #F22771;
 }
 /*End of the text code*/
-/*Table*/
-table th td {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-}
 img {
 		width: auto; 
 		max-height: 100%; 
 	   }
 
 /*Classes*/
+.dark-mode {
+	background-color:#3d3d3d;
+	color: white;
+  }
+.dark-mode a {
+	color: #F22771;
+}
+
+
+.anchor_tag1 {
+	font-family: 'PT Serif', serif;
+	padding-left: 15vh;
+	color: #292238;
+	font-size: 3.0vh;
+	text-decoration: none;
+}
+
 
 .main_image-container {
 	width: 100%;
@@ -140,45 +147,61 @@ img {
 	margin-right: auto;
 }
 .background_image {
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+/*Css grid*/
 .container {
 	display: grid;
-	grid-template-columns: 6;
-	grid-template-rows: 2;
-	grid-row: auto;
-	grid-column: auto;
-	object-fit: cover;
+	margin: 0 auto;
+    max-width: 1516px;
 }
-/*Css grid*/
+
+
 .item-1 {
-	padding-left: 15vh;
-	grid-column: 1 / span 2;
-	grid-row: 1;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-column: 1;
 }
 
 .item-2 {
-	padding-left: 15vh;
-	grid-column: 2 / span 2;
-	grid-row: 1;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	grid-column-start: 2;
+	grid-column-end: 1;
+	grid-column: 2;
 }
 
 .item-3 {
-	padding-left: 15vh;
-	grid-column: 3 / span 2;
-	grid-row: 1;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	grid-column-start: 3;
+	grid-column-end: 1;
+	grid-column: 3;
 }
 
 .item-4 {
-	padding-left: 15vh;
-	grid-column: 1/ span 2;
-	grid-row: 2;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	grid-area:2 / 1 / span 1 / span 2
+	/*Starting on row 2 and column 1 and it will span 1 row and 1 colum*/
+	
 }
 
 .item-5 {
-	padding-left: 15vh;
-	grid-column: 2 / span 2;
-	grid-row: 2;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	grid-area:2 / 2 / span 1 / span 2
+	/*Starting on row 2 and column 2 and it will span 1 row and 1 colum*/
 }

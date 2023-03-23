@@ -7,12 +7,31 @@
     </ul>
 </nav>
 
-<h2>About Neoni</h2>
+<h1>About Neoni</h1>
+<h2>What is Neoni?</h2>
+<p>Neoni  </p>
 
 
 
-
-
+<style>
+    h1 {
+        color:#F22771;
+        font-size: 3.5vh;
+        text-align: center;
+        padding-left: 15vh;
+        
+    }
+    h2 {
+        font-size: 2.5vh;
+        text-align: left;
+        padding-left: 15vh;
+        color: #220126;
+    }
+    p {
+        font-size: 2.3vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
 
 
 <footer>
