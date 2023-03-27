@@ -16,13 +16,10 @@ function myFunction() {
     </ul>
 </nav>
 
-
 <div class="main_image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
 </div>
 
-
-<br>
    <h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
 <h2>Fan Favorites</h2>
 <div class="container">
@@ -31,10 +28,7 @@ function myFunction() {
     <section class="item-3"> <a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img src="\images\Wonderland Neoni.jpg" alt=""> </a></section>
     <section class="item-4"> <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a> </section>
     <section class="item-5"> <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>  </section>
-
 </div>
-
-
 
    <footer>
     <ul>
