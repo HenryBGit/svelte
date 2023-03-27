@@ -1,25 +1,27 @@
-<link rel="stylesheet" href="src\main.css"> 
+<link rel="stylesheet" href="\src\main.css"> 
 
 <nav>
     <ul>
-        <li><a href="/"> Home</a> </li>
-        <li><a href="/about/about"> Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
-        
-    </ul>
-</nav>
-
-
-<div class="main_image-container">
-    <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt=""> <!--Crop the image-->
-</div>
-<button on:click={myFunction}><img src="\images\sunjpg.jpg" alt=""></button>
+        <button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
+        <li><a href="/"> Home</a> </li>
+        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/about"> About Neoni</a></li>
+
+    </ul>
+</nav>
+
+
+<div class="main_image-container">
+    <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
+</div>
+
+
 <br>
    <h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
 <h2>Fan Favorites</h2>
@@ -30,7 +32,6 @@ function myFunction() {
     <section class="item-4"> <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a> </section>
     <section class="item-5"> <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>  </section>
 </div>
-
 
 
 

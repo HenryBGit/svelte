@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /*Css rules for Crimson text*/
 /*font-family: 'Crimson Text', serif;*/
 
-/*Css Rules for Abel*/
+/*Css rules for Abel*/
 /*font-family: 'Abel', sans-serif;*/
 
 /*Css rules for Montserrat*/
@@ -13,6 +14,9 @@
 
 /*Css rules for PTF serif*/
 /*font-family: 'PT Serif', serif;*/
+
+/*Css rules for Dancing Script*/
+/*font-family: 'Dancing Script', cursive;*/
 
 body {
 	margin: auto;
@@ -39,7 +43,7 @@ nav li a {
 	display: block;
 	color: #ececec;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 20px 16px;
 	text-decoration: none;
 }
 nav li a:hover {
@@ -69,7 +73,7 @@ footer li a {
 	display: block;
 	color: #ececec;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 25px;
 	text-decoration: none;
 }
 footer li a:hover {
@@ -109,20 +113,36 @@ a:hover {
 
 h2 {
 	font-family: 'PT Serif', serif;
+	font-size: 5.5vh;
 	text-align: center;
+	color: #F22771;
+}
+h3 {
+	padding-left: 15vh;
+	font-family: 'PT Serif', serif;
 	font-size: 3.5vh;
 	color: #F22771;
 }
+.rcorners1 {
+	border-radius: 25px;
+	border: 5px solid transparent;
+	height: 50vh;
+	width: 250px;
+  }
 /*End of the text code*/
-img {
-		width: auto; 
-		max-height: 100%; 
-	   }
+
+  
 
 /*Classes*/
+.button_img {
+    min-width: 2.5em;;
+    max-height: 3.7em;
+    overflow: hidden;
+}
+
 .main_image-container {
 	width: 100%;
-	height: 50vh;
+	height: 70vh;
 	display: block;
 	overflow: hidden;
 	margin-left: auto;
@@ -134,13 +154,12 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 /*Css grid*/
 .container {
 	display: grid;
 	margin: 0 auto;
     max-width: 1516px;
+    column-gap: 0.7%;
 }
 
 
@@ -190,22 +209,47 @@ img {
 
 /*Start of Dark Mode*/
 .dark-mode {
-	background-color:#7e776e;
+	background-color:#2b2825;
+	color: #ececec;
+  }
+  .dark-mode h1 {
+	color: #f45b00;
+  }
+  .dark-mode h2 {
+	color: #fe81cc;
+  }
+  .dark-mode h3 {
+	color: #fe81cc;
+  }
+  .dark-mode p{
 	color: white;
   }
-.dark-mode a {
-	color: #bf9c25;
+  .dark-mode a {
+	color :#c29e29;
+  }
+  .dark-mode a:hover {
+	color :#9002a8;
+  }
+  .dark-mode footer	 {
+	background-color: #8902a0;
+  }
+
+.dark-mode footer a {
+	color: #ececec;
 }
-.dark-mode a:hover {
-	color: #A429A6;
+.dark-mode footer a:hover {
+	color: #ececec;
 }
-.dark_mode nav {
-	background-color: #292238;
+  .dark-mode nav {
+	background-color: #8902a0;
+  }
+.dark-mode nav a {
+	color: #ececec;
 }
-.dark_mode nav a{
-	background-color: #292238;
+.dark-mode nav a:hover {
+	color: #ececec;
 }
-.dark_mode nav a:hover{
-	background-color: white;
+.dark_mode nav ul {
+	background-color: #fe81cc;
 }
 /*End of Dark Mode*/
