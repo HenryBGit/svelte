@@ -21,10 +21,12 @@
 body {
 	margin: auto;
 	background-color: #ececec;
+	transition: background-color 1s ease-out;
 }
 /*Start of The Navigation bar Code*/
 
 nav {
+	transition: background-color 2s ease-out;
 	margin: auto;
 	background-color: #F22771;
 }
@@ -47,6 +49,7 @@ nav li a {
 	text-decoration: none;
 }
 nav li a:hover {
+	transition: background-color 2s ease-out;
 	background-color: #A429A6;
 	color:#ececec;
 }
@@ -55,6 +58,7 @@ nav li a:hover {
 /*Start of the Footer Code*/
 
 footer {
+	transition: background-color 2s ease-out;
 	background-color: #F22771;
 	color: #ececec;
 }
@@ -126,8 +130,7 @@ h3 {
 .rcorners1 {
 	border-radius: 25px;
 	border: 5px solid transparent;
-	height: 50vh;
-	width: 250px;
+	
   }
 /*End of the text code*/
 
@@ -209,6 +212,7 @@ h3 {
 
 /*Start of Dark Mode*/
 .dark-mode {
+	transition: background-color 1s ease-out;
 	background-color:#2b2825;
 	color: #ececec;
   }
@@ -235,12 +239,14 @@ h3 {
   }
 
 .dark-mode footer a {
+	transition: background-color 2s ease-out;
 	color: #ececec;
 }
 .dark-mode footer a:hover {
 	color: #ececec;
 }
   .dark-mode nav {
+	transition: background-color 2s ease-out;
 	background-color: #8902a0;
   }
 .dark-mode nav a {
