@@ -21,87 +21,56 @@ function myFunction() {
 <div class=".container">
 <section class="line-1">
 <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt="">
-<a>Darkside</a>
 <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt="">
-<a>Wonderland</a>
 <img class="rcorners1"src="\images\Ghost Town Neoni 2.jpg" alt="">
-<a>Ghost Town</a>
 </section>
 <section class="line-2">
 <img class="rcorners1"src="\images\Loser Neoni.jpg" alt="">
-<a>Loser</a>
 <img class="rcorners1"src="\images\Army Neoni.jpg" alt="">
-<a>Darkside</a>
 <img class="rcorners1"src="\images\fangs neoni.jpg" alt="">
-<a>Fangs</a>
 </section>
 <section class="line-3">
 <img class="rcorners1"src="\images\parnoia Neoni.jpg" alt="">
-<a>Paranoia</a>
 <img class="rcorners1"src="\images\Horror Movies.jpg" alt="">
-<a>Horror Movies</a>
 <img class="rcorners1"src="\images\Donwfall.jpg" alt="">
-<a>Downfall</a>
 </section>
 <section class="line-4">
 <img class="rcorners1"src="\images\Pinky Promise.jpg" alt="">
-<a>Pinky Promise</a>
 <img class="rcorners1"src="\images\Doomsday.jpg" alt="">
-<a>Doomsday</a>
 <img class="rcorners1"src="\images\carry on wayward song.jpg" alt="">
-<a>Carry On Wayward Son</a>
 </section>
 <section class="line-5">
 <img class="rcorners1"src="\images\giants.jpg" alt="">
-<a>Giants</a>
 <img class="rcorners1"src="\images\Boo hoo.jpg" alt="">
-<a>Boo Hoo</a>
 <img class="rcorners1"src="\images\Haunted house.jpg" alt="">
-<a>Haunted House</a>
 </section>
 <section class="line-6">
 <img class="rcorners1"src="\images\Outlaw.jpg" alt="">
-<a>Outlaw</a>
 <img class="rcorners1"src="\images\machine neoni.jpg" alt="">
-<a>Machine</a>
 <img class="rcorners1"src="\images\where we rise.jpg" alt="">
-<a>Where We Rise</a>
 </section>
 <section class="line-7">
 <img class="rcorners1"src="\images\never say die.jpg" alt="">
-<a>Never Say Die</a>
 <img class="rcorners1"src="\images\mayhem neoni.jpg" alt="">
-<a>Mayhem</a>
 <img class="rcorners1"src="\images\levitate neoni.jpg" alt="">
-<a>Levitate</a>
 </section>
 <section class="line-8">
 <img class="rcorners1"src="\images\sanctuary.jpg" alt="">
-<a>Sanctuary</a>
 <img class="rcorners1"src="\images\champion.jpg" alt="">
-<a>Champion</a>
 <img class="rcorners1"src="\images\Fallout neoni.jpg" alt="">
-<a>Fallout</a>
 </section>
 <section class="line-9">
 <img class="rcorners1"src="\images\Notorious.jpg" alt="">
-<a>Notorious</a>
 <img class="rcorners1"src="\images\nightmare.jpg" alt="">
-<a>Nightmare</a>
 <img class="rcorners1"src="\images\throne.jpg" alt="">
-<a>Throne</a>
 </section>
 <section class="line-10">
 <img class="rcorners1"src="\images\revolution.jpg" alt="">
-<a>Revolution</a>
 <img class="rcorners1"src="\images\back from the dead.jpg" alt="">
-<a>Back From The Dead</a>
 <img class="rcorners1"src="\images\bloodstream.jpg" alt="">
-<a>Bloodstream</a>
 </section>
 <section class="line-11">
 <img class="rcorners1"src="\images\end of the world.jpg" alt="">
-<a>End Of The World</a>
 </section>
 </div>
 
@@ -115,6 +84,7 @@ section a:hover {
     text-decoration: none;
 }
 .dark-mode section a {
+	display: block;
     color: #ececec;
 }
 

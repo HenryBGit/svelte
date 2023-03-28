@@ -49,8 +49,8 @@ nav li a {
 	text-decoration: none;
 }
 nav li a:hover {
-	transition: background-color 1s ease-in;
-	background-color: #A429A6;
+	transition: background-color 0.5s ease-in;
+	background-color: #cd105cb5;;
 	color:#ececec;
 }
 /*End of the Navigation Bar code*/
@@ -59,7 +59,7 @@ nav li a:hover {
 
 footer {
 	
-	background-color: #F22771;
+	background-color: #F22772;
 	color: #ececec;
 }
 footer ul {
@@ -82,7 +82,7 @@ footer li a {
 }
 footer li a:hover {
 	transition: background-color 1s ease-out;
-	background-color: #A429A6;
+	background-color: #cd105cb5;
 	color: #ececec;
 }
 /*End of the Footer code*/
@@ -243,7 +243,7 @@ h3 {
   }
 
 .dark-mode footer a {
-	transition: background-color 1s ease-out;
+	transition: background-color 0.5s ease-out;
 	color: #ececec;
 }
 .dark-mode footer a:hover {

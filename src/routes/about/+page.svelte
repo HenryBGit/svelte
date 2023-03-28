@@ -16,7 +16,7 @@ function myFunction() {
 
 <h2>About Neoni</h2>
 <h3>Who are Neoni?</h3>
-<p>Neoni </p>
+<p>Neoni are a </p>
 
 
 
