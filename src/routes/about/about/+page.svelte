@@ -20,6 +20,7 @@ function myFunction() {
 <h2>Neoni Songs</h2>
 <div class=".container">
 <section class="line-1">
+	<!--Need to go through each one of these and add in more songs and all the links-->
 <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt="">
 <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt="">
 <img class="rcorners1"src="\images\Ghost Town Neoni 2.jpg" alt="">
