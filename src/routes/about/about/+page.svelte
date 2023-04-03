@@ -70,6 +70,7 @@ function myFunction() {
 	<a href=""></a> <img class="rcorners1"src="\images\end of the world.jpg" alt="">
 </section>
 </div>
+<!--On hover displays the title and artist(s) of the songs-->
 
 <style>
 .line {

@@ -16,6 +16,8 @@ nav {
 	/*transition: background-color 2s ease-out;*/
 	margin: auto;
 	background-color: #F22771;
+	opacity: 0.4;
+	
 }
 nav ul {
 	display: flex;
@@ -94,7 +96,7 @@ h1 a {
 	color: goldenrod;
 	text-decoration: none;
 }
-a:hover {
+h1 a:hover {
 	color: #A429A6;
 	text-decoration: none;
 }
@@ -161,12 +163,14 @@ h3 {
 	padding: 10px;
 	font-family: sans-serif;
 	color: #ececec;
-	background: #2b2825;
+	background-color: #000;
 	border-radius: 100px;
 	white-space: nowrap;
   }
-.top:hover {
-	color:goldenrod;
+
+
+.dark-mode a.top {
+	color: #ececec;
 }
   
   p {
