@@ -4,24 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-/*Css rules for Crimson text*/
-/*font-family: 'Crimson Text', serif;*/
-
-/*Css rules for Abel*/
-/*font-family: 'Abel', sans-serif;*/
-
-/*Css rules for Montserrat*/
-/*font-family: 'Montserrat', sans-serif;*/
-
-/*Css rules for PTF serif*/
-/*font-family: 'PT Serif', serif;*/
-
-/*Css rules for Dancing Script*/
-/*font-family: 'Dancing Script', cursive;*/
-
-/*Css rules for Patua One*/
-/*font-family: 'Patua One', cursive;*/
-
 
 body {
 	margin: auto;
@@ -37,8 +19,8 @@ nav {
 }
 nav ul {
 	display: flex;
-	justify-content: right;
-	justify-items: right;
+	justify-content: center;
+	justify-items: center;
 	text-decoration: none;
 	list-style-type: none;
 	margin: 0;
@@ -63,8 +45,6 @@ nav li a:hover {
 /*Start of the Footer Code*/
 
 footer {
-	
-	background-color: #F22772;
 	color: #ececec;
 }
 footer ul {
@@ -86,8 +66,6 @@ footer li a {
 	text-decoration: none;
 }
 footer li a:hover {
-	transition: background-color 1s ease-out;
-	background-color: #cd105cb5;
 	color: #ececec;
 }
 /*End of the Footer code*/
@@ -134,34 +112,27 @@ h3 {
 	color: #F22771;
 }
 .rcorners1 {
-	border-radius: 25px;
-	border: 5px solid transparent;
-	min-width: 500px;
-	min-height: 500px;
-	max-width: 500px;
-	max-height: 500px;
+    border-radius: 25px;
+    border: 5px solid transparent;
+	max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+	transition: all 0.5s ease-out;
+  }
+  .rcorners1:hover {
+	transform: scale(1.5);
   }
 /*End of the text code*/
 
-  div a {
-	display: inline;
-  }
 
 /*Classes*/
-.fade-in {
-	animation: fadeIn ease 5s;
-}
-
-
 .button_img {
     min-width: 2.5em;;
     max-height: 3.7em;
     overflow: hidden;
 }
 
-.main_grid {
-
-}
 .main_image-container {
 	width: 100%;
 	height: 70vh;
@@ -176,7 +147,37 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+.top {
+	--offset: 50px; 
 
+	position: sticky;
+	bottom: 20px;      
+	right:10px; 
+	place-self: end;
+	margin-top: calc(100vh + var(--offset));/*Checking if the view height of the page is 100 and if the offset is 50px
+	if it is then it wont display the button if it is not then it will show the button*/
+	/* visual styling */
+	text-decoration: none;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #ececec;
+	background: #2b2825;
+	border-radius: 100px;
+	white-space: nowrap;
+  }
+.top:hover {
+	color:goldenrod;
+}
+  
+  p {
+	font-size: 25px;
+  }
+  
+  html,
+  body {
+	scroll-behavior: smooth;
+  }
+/*End Of Back to top button*/
 
 /*Css grid*/
 .container {
@@ -185,65 +186,57 @@ h3 {
     max-width: 1516px;
 }
 
-
-.item-1 {
+.item{
 	display: flex;
 	justify-content: center;
 	justify-items: center;
+}
+
+
+.item-1 {	
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-column: 1;
 }
 
 .item-2 {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
 	grid-column-start: 2;
 	grid-column-end: 1;
 	grid-column: 2;
 }
 
 .item-3 {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
 	grid-column-start: 3;
 	grid-column-end: 1;
 	grid-column: 3;
 }
 
 .item-4 {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
 	grid-area:2 / 1 / span 1 / span 2
 	/*Starting on row 2 and column 1 and it will span 1 row and 1 colum*/
 	
 }
 
 .item-5 {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
 	grid-area:2 / 2 / span 1 / span 2
 	/*Starting on row 2 and column 2 and it will span 1 row and 1 colum*/
 }
+/*Css Variables*/
 
 /*Start of Dark Mode*/
 .dark-mode {
-	/*transition: background-color 1s ease-out;*/
 	background-color:#2b2825;
 	color: #ececec;
   }
   .dark-mode h1 {
 	color: #f45b00;
   }
+/*Css Variables*/
   .dark-mode h2 {
-	color: #fe81cc;
+		color :#fe81cc;
   }
   .dark-mode h3 {
-	color: #fe81cc;
+	color :#fe81cc;
   }
   .dark-mode p{
 	color: white;
@@ -251,58 +244,129 @@ h3 {
   .dark-mode a {
 	color :#c29e29;
   }
-  .dark-mode a:hover {
-	color :#9002a8
-  }
-  .dark-mode footer	 {
-	background-color: #8902a0;
-  }
-
-.dark-mode footer a {
-	transition: background-color 0.5s ease-out;
-	color: #ececec;
-}
-.dark-mode footer a:hover {
-	color: #ececec;
-	background-color: #590168;
-}
+  
   .dark-mode nav {
-	/*transition: background-color 2s ease-out;*/
 	background-color: #8902a0;
   }
 .dark-mode nav a {
 	color: #ececec;
 }
 .dark-mode nav a:hover {
-	color: #ececec;
 	background-color: #590168;
 }
-.dark_mode nav ul {
-	background-color: #fe81cc;
-}
+
 /*End of Dark Mode*/
 
+/*Start of Media Queries*/
 
-/*Animations*/
-@keyframes fadeIn {
-	0% {
-		color: red;
-		opacity:0;
-	}
-	100% {
-		color: yellow;
-		opacity:1;
-	}
-  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-  .in-right{
-	animation: inright 4s;
-	animation-delay: 3s;
-  }
-  
-  @keyframes inright {
-	0% {color: red;}
-	50% {color: yellow;}
-	100% {color: limegreen;}
-  }
-  
+    
+    .rcorners1 {
+        border-radius: 25px;
+        border: 5px solid transparent;
+        max-width: 350px;
+        max-height: 250px;
+      }
+
+
+    .container {
+    display: grid;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 150px;
+
+    }
+	
+    .item-1 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column: 1;
+    }
+    
+    .item-2 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column: 1;
+    }
+    
+    .item-3 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column: 1;
+    }   
+    
+    .item-4 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column: 1;
+        
+    }
+    
+    .item-5 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column: 1;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h1 a {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h2 {
+    font-size: 37px;
+    text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/*End of Media Queries*/
+

@@ -15,19 +15,25 @@ function myFunction() {
 </nav>
 
 <h2>About Neoni</h2>
-<h3>Who are Neoni?</h3>
-<p>Neoni are a </p>
+<h3>What is Neoni?</h3>
+<p></p>
+<h3>What type of songs do they make?</h3>
+<p></p>
 
-
-
-
-
+<h2>Fan Favorites</h2>
+<div class="container">
+    <section class="item item-1"> <a href="https://www.youtube.com/watch?v=lW9ep22YmlM"> <img src="\images\Royalty Album Cover.jpg" alt=""></a> </section>
+    <section class="item item-2"> <a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img src="\images\Darkside Neoni.jpg" alt=""></a> </section>
+    <section class="item item-3"> <a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img src="\images\Wonderland Neoni.jpg" alt=""> </a></section>
+    <section class="item item-4"> <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a> </section>
+    <section class="item item-5"> <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>  </section>
+</div>
 
 <footer>
     <ul>
-        <li><a href="/"> Home</a> </li>
-        <li><a href="/about/about"> Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
-        <li></li>
+        <li><img></li>
+        <li><img></li>
+        <li><img></li>
+        <li><img></li>
     </ul>
 </footer>
