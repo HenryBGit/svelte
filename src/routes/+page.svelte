@@ -18,9 +18,12 @@ function myFunction() {
 
 <div class="main_image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
-</div>
 
+</div>
+<section class="fade-in">
    <h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
+</section>
+
 <h2>Fan Favorites</h2>
 <div class="container">
     <section class="item-1"> <a href="https://www.youtube.com/watch?v=lW9ep22YmlM"> <img src="\images\Royalty Album Cover.jpg" alt=""></a> </section>

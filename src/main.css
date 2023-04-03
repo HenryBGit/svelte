@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 /*Css rules for Crimson text*/
 /*font-family: 'Crimson Text', serif;*/
 
@@ -17,6 +18,10 @@
 
 /*Css rules for Dancing Script*/
 /*font-family: 'Dancing Script', cursive;*/
+
+/*Css rules for Patua One*/
+/*font-family: 'Patua One', cursive;*/
+
 
 body {
 	margin: auto;
@@ -107,7 +112,7 @@ a img:hover {
 	opacity: 0.7;
 }
 h1 a {
-	font-family: 'PT Serif', serif;
+	font-family: 'Dancing Script', cursive;
 	color: goldenrod;
 	text-decoration: none;
 }
@@ -138,15 +143,25 @@ h3 {
   }
 /*End of the text code*/
 
-  
+  div a {
+	display: inline;
+  }
 
 /*Classes*/
+.fade-in {
+	animation: fadeIn ease 5s;
+}
+
+
 .button_img {
     min-width: 2.5em;;
     max-height: 3.7em;
     overflow: hidden;
 }
 
+.main_grid {
+
+}
 .main_image-container {
 	width: 100%;
 	height: 70vh;
@@ -161,6 +176,8 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 /*Css grid*/
 .container {
 	display: grid;
@@ -235,7 +252,7 @@ h3 {
 	color :#c29e29;
   }
   .dark-mode a:hover {
-	color :#9002a8;
+	color :#9002a8
   }
   .dark-mode footer	 {
 	background-color: #8902a0;
@@ -247,6 +264,7 @@ h3 {
 }
 .dark-mode footer a:hover {
 	color: #ececec;
+	background-color: #590168;
 }
   .dark-mode nav {
 	/*transition: background-color 2s ease-out;*/
@@ -257,8 +275,34 @@ h3 {
 }
 .dark-mode nav a:hover {
 	color: #ececec;
+	background-color: #590168;
 }
 .dark_mode nav ul {
 	background-color: #fe81cc;
 }
 /*End of Dark Mode*/
+
+
+/*Animations*/
+@keyframes fadeIn {
+	0% {
+		color: red;
+		opacity:0;
+	}
+	100% {
+		color: yellow;
+		opacity:1;
+	}
+  }
+
+  .in-right{
+	animation: inright 4s;
+	animation-delay: 3s;
+  }
+  
+  @keyframes inright {
+	0% {color: red;}
+	50% {color: yellow;}
+	100% {color: limegreen;}
+  }
+  
