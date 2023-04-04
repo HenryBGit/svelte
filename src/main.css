@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+/*Gives the back to top button it's smooth scrolling*/
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 body {
 	margin: auto;
@@ -16,8 +21,16 @@ nav {
 	/*transition: background-color 2s ease-out;*/
 	margin: auto;
 	background-color: #F22771;
-	opacity: 0.4;
+
 	
+}
+.nav-transparency{
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	opacity: 0.4;
+    z-index: -1;
 }
 nav ul {
 	display: flex;
@@ -88,9 +101,7 @@ h1 {
 	color: #F28444;
 }
 
-a img:hover {
-	opacity: 0.7;
-}
+
 h1 a {
 	font-family: 'Dancing Script', cursive;
 	color: goldenrod;
@@ -113,18 +124,7 @@ h3 {
 	font-size: 3.5vh;
 	color: #F22771;
 }
-.rcorners1 {
-    border-radius: 25px;
-    border: 5px solid transparent;
-	max-width: 300px;
-    max-height: 300px;
-    min-width: 300px;
-    min-height: 300px;
-	transition: all 0.5s ease-out;
-  }
-  .rcorners1:hover {
-	transform: scale(1.5);
-  }
+
 /*End of the text code*/
 
 
@@ -133,97 +133,6 @@ h3 {
     min-width: 2.5em;;
     max-height: 3.7em;
     overflow: hidden;
-}
-
-.main_image-container {
-	width: 100%;
-	height: 70vh;
-	display: block;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-}
-.background_image {
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-.top {
-	--offset: 50px; 
-
-	position: sticky;
-	bottom: 20px;      
-	right:10px; 
-	place-self: end;
-	margin-top: calc(100vh + var(--offset));/*Checking if the view height of the page is 100 and if the offset is 50px
-	if it is then it wont display the button if it is not then it will show the button*/
-	/* visual styling */
-	text-decoration: none;
-	padding: 10px;
-	font-family: sans-serif;
-	color: #ececec;
-	background-color: #000;
-	border-radius: 100px;
-	white-space: nowrap;
-  }
-
-
-.dark-mode a.top {
-	color: #ececec;
-}
-  
-  p {
-	font-size: 25px;
-  }
-  
-  html,
-  body {
-	scroll-behavior: smooth;
-  }
-/*End Of Back to top button*/
-
-/*Css grid*/
-.container {
-	display: grid;
-	margin: 0 auto;
-    max-width: 1516px;
-}
-
-.item{
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-}
-
-
-.item-1 {	
-	grid-column-start: 1;
-	grid-column-end: 1;
-	grid-column: 1;
-}
-
-.item-2 {
-	grid-column-start: 2;
-	grid-column-end: 1;
-	grid-column: 2;
-}
-
-.item-3 {
-	grid-column-start: 3;
-	grid-column-end: 1;
-	grid-column: 3;
-}
-
-.item-4 {
-	grid-area:2 / 1 / span 1 / span 2
-	/*Starting on row 2 and column 1 and it will span 1 row and 1 colum*/
-	
-}
-
-.item-5 {
-	grid-area:2 / 2 / span 1 / span 2
-	/*Starting on row 2 and column 2 and it will span 1 row and 1 colum*/
 }
 /*Css Variables*/
 
@@ -237,10 +146,10 @@ h3 {
   }
 /*Css Variables*/
   .dark-mode h2 {
-		color :#fe81cc;
+	color :#dd2afb;
   }
   .dark-mode h3 {
-	color :#fe81cc;
+	color :#dd2afb;
   }
   .dark-mode p{
 	color: white;
@@ -261,6 +170,7 @@ h3 {
 
 /*End of Dark Mode*/
 
+
 /*Start of Media Queries*/
 
 /* Extra small devices (phones, 600px and down) */
@@ -273,66 +183,6 @@ h3 {
         max-width: 350px;
         max-height: 250px;
       }
-
-
-    .container {
-    display: grid;
-    margin: 0 auto;
-    max-width: 600px;
-    max-height: 150px;
-
-    }
-	
-    .item-1 {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        grid-row: 1;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-column: 1;
-    }
-    
-    .item-2 {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        grid-row: 2;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-column: 1;
-    }
-    
-    .item-3 {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        grid-row: 3;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-column: 1;
-    }   
-    
-    .item-4 {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        grid-row: 4;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-column: 1;
-        
-    }
-    
-    .item-5 {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        grid-row: 5;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-column: 1;
-    }
 
     h1 {
         font-size: 50px;

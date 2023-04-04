@@ -18,7 +18,22 @@ function myFunction() {
 
 <div class="main_image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
-
 </div>
+<style>
+.main_image-container {
+	width: 100%;
+	height: 65vh;
+	display: block;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.background_image {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
    <h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
 

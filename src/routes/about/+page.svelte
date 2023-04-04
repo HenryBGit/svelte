@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="\src\main.css"> 
+
 <nav>
     <ul>
         <button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
@@ -15,7 +16,7 @@ function myFunction() {
 </nav>
 
 <h2>About Neoni</h2>
-<h3>What is Neoni?</h3>
+<h3>Who are Neoni?</h3>
 <p></p>
 <h3>What type of songs do they make?</h3>
 <p></p>
@@ -28,12 +29,58 @@ function myFunction() {
     <section class="item item-4"> <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a> </section>
     <section class="item item-5"> <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>  </section>
 </div>
+<style>
+a img:hover {
+	opacity: 0.7;
+}
 
-<footer>
+.container {
+	display: grid;
+	margin: 0 auto;
+    max-width: 1516px;
+}
+
+.item{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+
+.item-1 {	
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-column: 1;
+}
+
+.item-2 {
+	grid-column-start: 2;
+	grid-column-end: 1;
+	grid-column: 2;
+}
+
+.item-3 {
+	grid-column-start: 3;
+	grid-column-end: 1;
+	grid-column: 3;
+}
+
+.item-4 {
+	grid-area:2 / 1 / span 1 / span 2
+	/*Starting on row 2 and column 1  it will span 1 row and 1 column*/
+	
+}
+
+.item-5 {
+	grid-area:2 / 2 / span 1 / span 2
+	/*Starting on row 2 and column 2 it will span 1 row and 2 columns*/
+}
+</style>
+<!--<footer>
     <ul>
         <li><img></li>
         <li><img></li>
         <li><img></li>
         <li><img></li>
     </ul>
-</footer>
+</footer>-->
