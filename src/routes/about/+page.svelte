@@ -20,6 +20,8 @@ function myFunction() {
 <p></p>
 <h3>What type of songs do they make?</h3>
 <p></p>
+<h3>How many people listen to them?</h3>
+<p></p>
 
 <h2>Fan Favorites</h2>
 <div class="container">

@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="\src\main.css"> 
 
 <nav>
-    <ul>
-        <button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
+	<button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
-        <li><a href="/"> Home</a> </li>
+    <ul>
+         <li><a href="/"> Home</a> </li>
         <li><a href="/about/about"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
 
@@ -37,23 +37,20 @@ function myFunction() {
 
 /*Button*/
 .button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-	background-color: black;
-	color: white;
+	background-color: #2b2825;
+	color: #ececec;
+	border-radius: 25px solid;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
-    border: 1px solid white;
-    
+    border: 10px thick black;
 }
 
 .button:hover {
-    text-decoration: underline;
+    color: goldenrod;
 }
 </style>
    <h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
 
-<button class="button">Next Page</button>
+<button class="button">Continue	&rarr;</button>
