@@ -45,8 +45,6 @@ a img:hover {
 	justify-content: center;
 	justify-items: center;
 }
-
-
 .item-1 {	
 	grid-column-start: 1;
 	grid-column-end: 1;
@@ -76,6 +74,7 @@ a img:hover {
 	/*Starting on row 2 and column 2 it will span 1 row and 2 columns*/
 }
 </style>
+<!--Add in logos of social media here-->
 <!--<footer>
     <ul>
         <li><img></li>

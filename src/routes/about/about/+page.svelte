@@ -81,7 +81,7 @@ function myFunction() {
 	bottom: 20px;      
 	right:10px; 
 	place-self: end;
-	margin-left: calc(100vh + 85vh);/*sets it to the right*/
+	margin-left: calc(100vh + 75vh);/*sets it to the right*/
 	margin-top: calc(100vh + var(--offset));/*Checking if the view height of the page is 100 and if the offset is 50px
 	if it is then it wont display the button if it is not then it will show the button*/
 	/* visual styling */
@@ -97,6 +97,7 @@ function myFunction() {
 /*End Of Back to top button*/
 
 .rcorners1 {
+	display: flex;
     min-height: 300px;
 	max-height: 300px;
 	max-width: 300px;
