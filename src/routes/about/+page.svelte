@@ -9,18 +9,18 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
-        <li><a href="/"> Home</a> </li>
-        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png"></a> </li>
+        <li><a href="about\Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
 
 <h2>About Neoni</h2>
-<h3>Who are Neoni?</h3>
+<h3>What is Neoni?</h3>
 <p></p>
 <h3>What type of songs do they make?</h3>
 <p></p>
-<h3>How many people listen to them?</h3>
+<h3>How popular are they?</h3>
 <p></p>
 
 <h2>Fan Favorites</h2>

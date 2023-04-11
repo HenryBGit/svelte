@@ -9,20 +9,29 @@ html,
 body {
   scroll-behavior: smooth;
 }
-
 body {
 	margin: auto;
 	background-color: #ececec;
-	/*transition: background-color 1s ease-out;*/
+	transition: background-color 1s ease-out;
 }
-/*Start of The Navigation bar Code*/
 
+/*Start of The Navigation bar Code*/
+.button_img {
+    max-width: 50px;
+    max-height: 50px;
+    overflow: hidden;
+	display: inline;
+}
+
+.logo-img {
+	max-width: 70px;
+	max-height: 70px;
+	overflow: hidden;
+}
 nav {
-	/*transition: background-color 2s ease-out;*/
+	transition: background-color 1s ease-out;
 	margin: auto;
 	background-color: #F22771;
-
-	
 }
 .nav-transparency{
 	top: 0;
@@ -49,16 +58,18 @@ nav li a {
 	text-align: center;
 	padding: 20px 16px;
 	text-decoration: none;
+	overflow: hidden;
 }
 nav li a:hover {
 	transition: background-color 0.5s ease-in;
 	background-color: #cd105cb5;;
 	color:#ececec;
 }
+
+
 /*End of the Navigation Bar code*/
 
 /*Start of the Footer Code*/
-
 footer {
 	color: #ececec;
 }
@@ -101,7 +112,6 @@ h1 {
 	color: #F28444;
 }
 
-
 h1 a {
 	font-family: 'Dancing Script', cursive;
 	color: goldenrod;
@@ -124,23 +134,30 @@ h3 {
 	font-size: 3.5vh;
 	color: #F22771;
 }
-
 /*End of the text code*/
+/*Round Corners*/
+.rcorners1 {
+	display: flex;
+    min-height: 300px;
+	max-height: 300px;
+	max-width: 300px;
+	min-width: 300px;
+    border-radius: 25px;
+    border: 5px solid transparent;
+	transition: all 0.5s ease-out;
+  }
+  .rcorners1:hover {
+	transform: scale(1.5);
+  }
 
-
-
-/*Classes*/
-.button_img {
-    min-width: 2.5em;;
-    max-height: 3.7em;
-    overflow: hidden;
-	display: inline;
-}
-/*Css Variables*/
 
 /*Start of Dark Mode*/
 .dark-mode {
+	transition: background-color 1s ease-out;
 	background-color:#2b2825;
+	color: #ececec;
+  }
+  .dark-mode .top {
 	color: #ececec;
   }
   .dark-mode h1 {
@@ -156,11 +173,8 @@ h3 {
   .dark-mode p{
 	color: white;
   }
-  .dark-mode a {
-	color :#c29e29;
-  }
-  
   .dark-mode nav {
+	transition: background-color 1s ease-out;
 	background-color: #8902a0;
   }
 .dark-mode nav a {
@@ -169,14 +183,10 @@ h3 {
 .dark-mode nav a:hover {
 	background-color: #590168;
 }
-.dark-mode .button {
-	background-color: #92fe50;
-    border: 10px thick lightgrey;
-	color: black;
-    
+.dark-mode a:hover {
+	color: #ececec;
 }
 /*End of Dark Mode*/
-
 
 /*Start of Media Queries*/
 
@@ -187,8 +197,10 @@ h3 {
     .rcorners1 {
         border-radius: 25px;
         border: 5px solid transparent;
-        max-width: 350px;
-        max-height: 250px;
+		min-width: 100px;
+        min-height: 100px;
+        max-width: 100px;
+        max-height: 100px;
       }
 
     h1 {
@@ -222,6 +234,12 @@ h3 {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+	.rcorners1 {
+        border-radius: 25px;
+        border: 5px solid transparent;
+        max-width: 100px;
+        max-height: 100px;
+      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -2,17 +2,18 @@
 
 <nav>
     <ul>
-        <button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
+        <button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
-        <li><a href="/"> Home</a> </li>
-        <li><a href="/about/about"> Songs</a></li>
+        <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png">
+			
+			</a> </li>
+        <li><a href="about\Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
-
     </ul>
 </nav>
 
@@ -66,16 +67,73 @@ function myFunction() {
 	<a href=""></a> <img class="rcorners1"src="\images\back from the dead.jpg" alt="">
 	<a href=""></a> <img class="rcorners1"src="\images\bloodstream.jpg" alt="">
 	<a href=""></a> <img class="rcorners1"src="\images\end of the world.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\bad intentions.jpg" alt="">
 </section>
 <section class="line line-9">
-
-
+	<a href=""></a> <img class="rcorners1"src="\images\Big guns neoni.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Bombs away.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Bury Me alive.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\carousel.jpg" alt="">
+</section>
+<section class="line line-10">
+	<a href=""></a> <img class="rcorners1"src="\images\Chemcials.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Confession.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\conquer.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\dead to me.jpg" alt="">
+</section>
+<section class="line line-11">
+	<a href=""></a> <img class="rcorners1"src="\images\deep water.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Demons.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Empire.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Feet dont fail me now.jpg" alt="">
+</section>
+<section class="line line-12">
+	<a href=""></a> <img class="rcorners1"src="\images\gold.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Happy ever afterjpg.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\here comes trouble.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\hooligan.jpg" alt="">
+</section>
+<section class="line line-13">
+	<a href=""></a> <img class="rcorners1"src="\images\ignite.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\im not sorry.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Long time traveller.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Messed Up Masterpiece.jpg" alt="">
+</section>
+<section class="line line-14">
+	<a href=""></a> <img class="rcorners1"src="\images\monster.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Mutiny.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\nerver.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\oblivion.jpg" alt="">
+</section>
+<section class="line line-15">
+	<a href=""></a> <img class="rcorners1"src="\images\Omens.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\origin neoni.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\over my head.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\ready for war.jpg" alt="">
+</section>
+<section class="line line-16">
+	<a href=""></a> <img class="rcorners1"src="\images\Rip neoni.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\six feet deep.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Soilder.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\SuperNova.jpg" alt="">
+</section>
+<section class="line line-17">
+	<a href=""></a> <img class="rcorners1"src="\images\uh oh.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\underground.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\up in flames.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Vengance.jpg" alt="">
+</section>
+<section class="line line-18">
+	<a href=""></a> <img class="rcorners1"src="\images\Warning label.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\Wasteland.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\weirdo neoni.jpg" alt="">
+	<a href=""></a> <img class="rcorners1"src="\images\wreckage neoni.jpg" alt="">
 </section>
 
 </div>
 <!--On hover displays the title and artist(s) of the songs-->
 <style>
-.top {
+	.top {
 	--offset: 50vh; 
 	position: sticky;
 	bottom: 20px;      
@@ -91,25 +149,7 @@ function myFunction() {
 	color: #ececec;
 	background-color: #000;
 	border-radius: 100px;
-	white-space: nowrap;
-	scroll-behavior: smooth;
   }
-/*End Of Back to top button*/
-
-.rcorners1 {
-	display: flex;
-    min-height: 300px;
-	max-height: 300px;
-	max-width: 300px;
-	min-width: 300px;
-    border-radius: 25px;
-    border: 5px solid transparent;
-	transition: all 0.5s ease-out;
-  }
-  .rcorners1:hover {
-	transform: scale(1.5);
-  }
-
 .line {
 	display: flex;
 	justify-content: center;
@@ -119,46 +159,6 @@ function myFunction() {
 	grid-row-start: 1;
 	grid-row-end: 1;
 	grid-row: 1;
-}
-.line-2 {
-	grid-row-start: 2;
-	grid-row-end: 2;
-	grid-row: 2;
-}
-.line-3 {
-	grid-row-start: 3;
-	grid-row-end: 3;
-	grid-row: 3;
-}
-.line-4 {
-	grid-row-start: 4;
-	grid-row-end: 4;
-	grid-row: 4;
-}
-.line-5 {
-	grid-row-start: 5;
-	grid-row-end: 5;
-	grid-row: 5;
-}
-.line-6 {
-	grid-row-start: 6;
-	grid-row-end: 6;
-	grid-row: 6;
-}
-.line-7 {
-	grid-row-start: 7;
-	grid-row-end: 7;
-	grid-row: 7;
-}
-.line-8 {
-	grid-row-start: 8;
-	grid-row-end: 8;
-	grid-row: 8;
-}
-.line-9 {
-	grid-row-start: 9;
-	grid-row-end: 9;
-	grid-row: 9;
 }
 </style>
 <a href="#" class="top">Back to Top &#8593;</a>
