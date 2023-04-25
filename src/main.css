@@ -62,11 +62,9 @@ nav li a {
 }
 nav li a:hover {
 	transition: background-color 0.5s ease-in;
-	background-color: #cd105cb5;;
+	background-color: #cd105cb5;
 	color:#ececec;
 }
-
-
 /*End of the Navigation Bar code*/
 
 /*Start of the Footer Code*/
@@ -152,12 +150,15 @@ h3 {
 
 
 /*Start of Dark Mode*/
-.dark-mode {
+	.dark-mode {
 	transition: background-color 1s ease-out;
 	background-color:#2b2825;
-	color: #ececec;
+	color: #ececec
   }
   .dark-mode .top {
+	color: #ececec;
+  }
+  .dark-mode .top a:hover {
 	color: #ececec;
   }
   .dark-mode h1 {
@@ -177,26 +178,25 @@ h3 {
 	transition: background-color 1s ease-out;
 	background-color: #8902a0;
   }
-.dark-mode nav a {
+	.dark-mode nav a {
 	color: #ececec;
 }
-.dark-mode nav a:hover {
+	.dark-mode nav a:hover {
 	background-color: #590168;
-}
-.dark-mode a:hover {
 	color: #ececec;
+}
+	.dark-mode a:hover {
+	color: #8902a0;
 }
 /*End of Dark Mode*/
 
 /*Start of Media Queries*/
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    
     .rcorners1 {
         border-radius: 25px;
-        border: 5px solid transparent;
+        border: 2px solid transparent;
 		min-width: 100px;
         min-height: 100px;
         max-width: 100px;
@@ -218,13 +218,11 @@ h3 {
     text-align: center;
     }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
  
 
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -233,7 +231,6 @@ h3 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 	.rcorners1 {
         border-radius: 25px;
         border: 5px solid transparent;
@@ -241,11 +238,9 @@ h3 {
         max-height: 100px;
       }
 }
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
 }
 
 /*End of Media Queries*/
-

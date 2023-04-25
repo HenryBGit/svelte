@@ -9,10 +9,8 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
-        <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png">
-			
-			</a> </li>
-        <li><a href="about\Artist songs"> Songs</a></li>
+        <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png"></a> </li>
+        <li><a href="about\artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
