@@ -2,7 +2,7 @@
 
 <nav>
     <ul>
-        <button on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
+        <button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button>
 <script>
 function myFunction() {
    var element = document.body;
@@ -10,7 +10,7 @@ function myFunction() {
 }
 </script>
         <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png"></a> </li>
-        <li><a href="about\artist songs"> Songs</a></li>
+        <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>

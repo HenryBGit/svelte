@@ -186,13 +186,22 @@ h3 {
 	color: #ececec;
 }
 	.dark-mode a:hover {
-	color: #8902a0;
+	color: rgba(214, 209, 209, 0.952);
 }
 /*End of Dark Mode*/
 
 /*Start of Media Queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+	.main-image-container {
+	width: 320px;
+	height: 179px;
+	display: block;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
     .rcorners1 {
         border-radius: 25px;
@@ -241,6 +250,14 @@ h3 {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+	.main_image-container {
+		width: 100%;
+		height: 65vh;
+		display: block;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /*End of Media Queries*/

@@ -10,16 +10,15 @@ function myFunction() {
 }
 </script>
         <li><a href="/"> <img class="logo-img" alt="" src="\images\Neoni Logo.png"></a> </li>
-        <li><a href="about\artist songs"> Songs</a></li>
+        <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
 
-
 <h2>Neoni's Songs</h2>
 <div class="container">
 <section class="line line-1">
-<!--Need to go through each one of these and add in more songs and all the links-->
+<!--Need to go through each one of these and add in the links-->
 	<a href=""></a> <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt="">
 	<a href=""></a> <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt="">
 	<a href=""></a> <img class="rcorners1"src="\images\Ghost Town Neoni 2.jpg" alt="">
@@ -127,10 +126,13 @@ function myFunction() {
 	<a href=""></a> <img class="rcorners1"src="\images\weirdo neoni.jpg" alt="">
 	<a href=""></a> <img class="rcorners1"src="\images\wreckage neoni.jpg" alt="">
 </section>
-
 </div>
+
 <!--On hover displays the title and artist(s) of the songs-->
 <style>
+	.top:hover {
+		color: rgba(214, 209, 209, 0.952);
+	}
 	.top {
 	--offset: 50vh; 
 	position: sticky;
