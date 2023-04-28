@@ -12,7 +12,7 @@ body {
 body {
 	margin: auto;
 	background-color: #ececec;
-	transition: background-color 1s ease-out;
+	/*transition: background-color 1s ease-out;*/
 }
 
 /*Start of The Navigation bar Code*/
@@ -29,7 +29,7 @@ body {
 	overflow: hidden;
 }
 nav {
-	transition: background-color 1s ease-out;
+	/*transition: background-color 1s ease-out;*/
 	margin: auto;
 	background-color: #F22771;
 }
@@ -61,7 +61,7 @@ nav li a {
 	overflow: hidden;
 }
 nav li a:hover {
-	transition: background-color 0.5s ease-in;
+	/*transition: background-color 0.5s ease-in;*/
 	background-color: #cd105cb5;
 	color:#ececec;
 }
@@ -151,7 +151,7 @@ h3 {
 
 /*Start of Dark Mode*/
 	.dark-mode {
-	transition: background-color 1s ease-out;
+	/*transition: background-color 1s ease-out;*/
 	background-color:#2b2825;
 	color: #ececec
   }
@@ -175,7 +175,7 @@ h3 {
 	color: white;
   }
   .dark-mode nav {
-	transition: background-color 1s ease-out;
+	/*transition: background-color 1s ease-out;*/
 	background-color: #8902a0;
   }
 	.dark-mode nav a {

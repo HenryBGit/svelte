@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="\src\main.css">  <!-- TODO - move this away and import instead -->
-<!--TODO Find the font that i used in the nav bar and change it from an image to a font-->
+<!--Font used in the img: https://www.dafont.com/vogue.font?text=Neoni-->
 <script>
-
     let darkMode = false;
     let logo ="/images/Neoni Logo.png";
     let logoDark ="/images/Neoni Logo - Dark Mode.png";
@@ -10,9 +9,7 @@
         document.body.classList.toggle("dark-mode");
         darkMode = !darkMode;
     }
-
 </script>
-
 <nav>
     <ul>
         <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
