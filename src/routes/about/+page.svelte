@@ -9,13 +9,13 @@
     <ul>
         <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
         <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png"></a> </li>
-        <li><a href="/about/artist songs"> Songs</a></li>
+        <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
 
 <h2>About Neoni</h2>
-<h3>What is Neoni?</h3>
+<h3>What are Neoni?</h3>
 <p></p>
 <h3>What type of songs do they make?</h3>
 <p></p>
@@ -30,6 +30,15 @@
     <section class="item item-4"> <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a> </section>
     <section class="item item-5"> <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>  </section>
 </div>
+<br>
+<br>
+<footer>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/Artist songs"> Songs</a></li>
+        <li><a href="/about"> About Neoni</a></li>
+    </ul>
+</footer>
 <style>
 a img:hover {
 	opacity: 0.7;
@@ -75,12 +84,3 @@ a img:hover {
 	/*Starting on row 2 and column 2 it will span 1 row and 2 columns*/
 }
 </style>
-<!--Add in logos of social media here-->
-<!--<footer>
-    <ul>
-        <li><img></li>
-        <li><img></li>
-        <li><img></li>
-        <li><img></li>
-    </ul>
-</footer>-->

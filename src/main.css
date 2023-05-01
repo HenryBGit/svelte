@@ -33,14 +33,6 @@ nav {
 	margin: auto;
 	background-color: #F22771;
 }
-.nav-transparency{
-	top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-	opacity: 0.4;
-    z-index: -1;
-}
 nav ul {
 	display: flex;
 	justify-content: center;
@@ -69,6 +61,7 @@ nav li a:hover {
 
 /*Start of the Footer Code*/
 footer {
+	background-color: #F22771;
 	color: #ececec;
 }
 footer ul {
@@ -86,11 +79,17 @@ footer li a {
 	display: block;
 	color: #ececec;
 	text-align: center;
-	padding: 14px 25px;
+	padding: 20px 16px;
 	text-decoration: none;
 }
 footer li a:hover {
 	color: #ececec;
+}
+footer img {
+	display: inline-block;
+	justify-content: center;
+	justify-items: center;
+	height: 100%;
 }
 /*End of the Footer code*/
 
@@ -134,18 +133,21 @@ h3 {
 }
 /*End of the text code*/
 /*Round Corners*/
+
+/*figure out how to get the images to display text when u hover on the,*/
 .rcorners1 {
 	display: flex;
+	flex-wrap: nowrap;
     min-height: 300px;
 	max-height: 300px;
 	max-width: 300px;
 	min-width: 300px;
     border-radius: 25px;
-    border: 5px solid transparent;
 	transition: all 0.5s ease-out;
   }
   .rcorners1:hover {
 	transform: scale(1.5);
+	flex-grow: 0;
   }
 
 
@@ -176,17 +178,25 @@ h3 {
   }
   .dark-mode nav {
 	/*transition: background-color 1s ease-out;*/
-	background-color: #8902a0;
+	background-color: #590168;
   }
 	.dark-mode nav a {
 	color: #ececec;
 }
 	.dark-mode nav a:hover {
-	background-color: #590168;
+	background-color: #8902a0;
 	color: #ececec;
 }
 	.dark-mode a:hover {
 	color: rgba(214, 209, 209, 0.952);
+}
+.dark-mode footer {
+	color: #ececec;
+	background-color: #590168;
+}
+.dark-mode footer a:hover {
+	color:#ececec;
+	background-color: #8902a0;
 }
 /*End of Dark Mode*/
 
