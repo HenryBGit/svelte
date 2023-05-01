@@ -128,7 +128,7 @@
 </div>
 
 <a href="#" class="top">Back to Top &#8593;</a>
-<!--Add in logos of social media here-->
+<!--Style the images-->
 <footer>
     <ul>
         <li><img src="\images\Dark mode youtube.png"></li>
