@@ -1,19 +1,15 @@
 <link rel="stylesheet" href="\src\main.css">  <!-- TODO - move this away and import instead -->
 <!--Font used in the img: https://www.dafont.com/vogue.font?text=Neoni-->
-<script>
-    let darkMode = false;
-    let logo ="/images/Neoni Logo.png";
-    let logoDark ="/images/Neoni Logo - Dark Mode.png";
 
+<script>
     function myFunction() {
         document.body.classList.toggle("dark-mode");
-        darkMode = !darkMode;
     }
 </script>
 <nav>
     <ul>
         <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
-        <li><a href="/"> <img class="logo-img" alt="" src="{!darkMode ? logo : logoDark}"></a> </li>
+        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png"></a> </li>
         <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
