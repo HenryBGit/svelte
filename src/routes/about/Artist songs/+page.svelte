@@ -8,8 +8,8 @@
 <nav>
     <ul>
         <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
-        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png"></a> </li>
-        <li><a href="/about/artist songs"> Songs</a></li>
+        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png">Neoni</a></li>
+        <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
@@ -17,7 +17,6 @@
 <h2>Neoni's Songs</h2>
 <div class="container">
 <section class="line line-1">
-<!--Need to go through each one of these and add in the links-->
 	<a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt=""></a>
 	<a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt=""></a>
 	<a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img class="rcorners1"src="\images\Ghost Town Neoni 2.jpg" alt=""></a>
@@ -131,13 +130,13 @@
 <!--Style the images-->
 <footer>
     <ul>
-        <li><img src="\images\Dark mode youtube.png"></li>
-        <li><img src="\images\Dark mode Facebook.png"></li>
-        <li><img src="\images\Dark mode spotify.png"></li>
-        <li><img src="\images\Dark Mode Music.png"></li>
-		<li><img src="\images\Dark Mode Insta.png"></li>
-		<li><img src="\images\Dark Mode Twitter.png"></li>
-		<li><img src="\images\Dark Mode Tik Tok.png"></li>
+        <li><img src="\images\Dark mode youtube.png" alt=""></li>
+        <li><img src="\images\Dark mode Facebook.png" alt=""></li>
+        <li><img src="\images\Dark mode spotify.png" alt=""></li>
+        <li><img src="\images\Dark Mode Music.png" alt=""></li>
+		<li><img src="\images\Dark Mode Insta.png" alt=""></li>
+		<li><img src="\images\Dark Mode Twitter.png" alt=""></li>
+		<li><img src="\images\Dark Mode Tik Tok.png" alt=""></li>
     </ul>
 </footer>
 <!--On hover displays the title and artist(s) of the songs-->
@@ -145,23 +144,7 @@
 	.top:hover {
 		color: rgba(214, 209, 209, 0.952);
 	}
-	.top {
-	--offset: 50vh; 
-	position: sticky;
-	bottom: 20px;      
-	right:10px; 
-	place-self: end;
-	margin-left: calc(100vh + 75vh);/*sets it to the right*/
-	margin-top: calc(100vh + var(--offset));/*Checking if the view height of the page is 100 and if the offset is 50px
-	if it is then it wont display the button if it is not then it will show the button*/
-	/* visual styling */
-	text-decoration: none;
-	padding: 10px;
-	font-family: sans-serif;
-	color: #ececec;
-	background-color: #000;
-	border-radius: 100px;
-  }
+	
 .line {
 	display: flex;
 	justify-content: center;
