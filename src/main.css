@@ -166,6 +166,9 @@ h3 {
   .dark-mode h1 {
 	color: #f45b00;
   }
+  .dark-mode h1 a:hover {
+	color: #A429A6;
+  }
 /*Css Variables*/
   .dark-mode h2 {
 	color :#dd2afb;
