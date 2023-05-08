@@ -1,18 +1,12 @@
 <link rel="stylesheet" href="\src\main.css"> 
 <script>
-    function myFunction() {
-        document.body.classList.toggle("dark-mode");
-
-    }
+    import Navbar from "$lib/navbar.svelte";
 </script>
-<nav>
-    <ul>
-        <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
-        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png">Neoni</a></li>
-        <li><a href="/about/Artist songs"> Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
-    </ul>
-</nav>
+
+<main>
+    <Navbar/>
+    <slot/>
+</main>
 
 <h2>Neoni's Songs</h2>
 <div class="container">
@@ -141,6 +135,26 @@
 </footer>
 <!--On hover displays the title and artist(s) of the songs-->
 <style>
+	.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  margin-left: 170vh;
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
 	.top:hover {
 		color: rgba(214, 209, 209, 0.952);
 	}

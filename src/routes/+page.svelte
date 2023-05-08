@@ -2,27 +2,23 @@
 <!--Font used in the img: https://www.dafont.com/vogue.font?text=Neoni-->
 
 <script>
-    function myFunction() {
-        document.body.classList.toggle("dark-mode");
-    }
+    import Navbar from "$lib/navbar.svelte";
 </script>
-<nav>
-    <ul>
-        <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
-        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png">Neoni</a></li>
-        <li><a href="/about/Artist songs"> Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
-    </ul>
-</nav>
 
-<div class="main_image-container">
+<main>
+    <Navbar/>
+    <slot/>
+</main>
+
+
+<div class="main-image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
 </div>
 
 <style>
 .main-image-container {
-	width: 1365px;
-	height: 767px;
+	width: 100%;
+	height: 60vh;
 	display: block;
 	overflow: hidden;
 	margin-left: auto;
