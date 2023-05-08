@@ -1,13 +1,27 @@
-<script>
-    function myFunction() {
-          document.body.classList.toggle("dark-mode");
-      }
-  </script>
+
 <nav>
     <ul>
-        <li><button  on:click={myFunction}><img class="button_img" src="\images\sun and moon.jpg" alt=""></button></li>
         <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png">Neoni</a></li>
         <li><a href="/about/Artist songs"> Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
+<style>
+    
+    nav {
+    background-color: #F22771;
+    padding: 10px,25px;
+}
+nav li a {
+    display: flex;
+	color: #ececec;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #ececec;
+}
+nav li a:hover {
+    background-color: #ec008c;
+}
+</style>

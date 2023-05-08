@@ -21,8 +21,6 @@
 	height: 60vh;
 	display: block;
 	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
 	}
 .background_image {
 	width: 100%;

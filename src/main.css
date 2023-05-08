@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-body, html {
+html {
     scroll-behavior: smooth;
 }
 body {
@@ -10,24 +10,8 @@ body {
     background-color: #ececec;
     color: #101010;
     font-family: 'Montserrat', sans-serif;
-}
-
-/*Start of Nav bar*/
-nav {
-    background-color: #F22771;
-    padding: 10px,25px;
-}
-nav li a {
-    display: flex;
-	color: #ececec;
-	text-align: center;
-	padding: 20px 16px;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	color: #ececec;
-}
-nav li a:hover {
-    background-color: #ec008c;
+    background-image: url(https://i0.wp.com/minecraftshader.com/wp-content/uploads/2021/11/bsl-shaders.jpg?fit=1280%2C720&ssl=1);
+    background-size: cover;
 }
 
 .button_img {
@@ -61,17 +45,6 @@ footer li a {
 	color: #ececec;
 }
 
-
-/*start of dark mode*/
-.dark-mode {
-background-color: #101010;
-color: #ececec;
-}
-.dark-mode nav {
-    background-color: #490049;
-}
-
-
 /*text*/
 h1 {
     font-size: 6vh;
@@ -85,14 +58,23 @@ h1 a {
 h1 a:hover {
     color: #EE82EE;
 }
+h2 {
+    text-align: center;
+    font-size: 3.5vh;
+}
 
 .container {
-    max-width: 200px;
+    
 
 }
 .rcorners1 {
+    width: 40%;
      border-radius: 25px;
         border: 2px solid transparent;
 		min-width: 670px;
         min-height: 500px;
+        object-fit: fill;
+}
+.rcorners1:hover {
+    opacity: 0.8;
 }

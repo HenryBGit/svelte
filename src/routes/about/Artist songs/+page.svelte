@@ -136,13 +136,12 @@
 <!--On hover displays the title and artist(s) of the songs-->
 <style>
 	.top {
-  --offset: 50px; 
   
   position: sticky;
   bottom: 20px;      
   margin-right:10px; 
   place-self: end;
-  margin-top: calc(100vh + var(--offset));
+  margin-top: 200vh;
   margin-left: 170vh;
   
   /* visual styling */
