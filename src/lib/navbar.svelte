@@ -13,10 +13,8 @@
     padding: 10px,25px;
 }
 nav li a {
-    display: flex;
 	color: #ececec;
 	text-align: center;
-	padding: 20px 16px;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	color: #ececec;
