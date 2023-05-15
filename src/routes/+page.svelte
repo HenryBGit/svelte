@@ -1,6 +1,4 @@
 <link rel="stylesheet" href="\src\main.css">  <!-- TODO - move this away and import instead -->
-<!--Font used in the img: https://www.dafont.com/vogue.font?text=Neoni-->
-
 <script>
     import Navbar from "$lib/navbar.svelte";
 </script>
@@ -9,7 +7,6 @@
     <Navbar/>
     <slot/>
 </main>
-
 
 <div class="main-image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">

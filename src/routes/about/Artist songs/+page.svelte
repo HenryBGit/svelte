@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="\src\main.css"> 
 <script>
     import Navbar from "$lib/navbar.svelte";
+	import Footer from "$lib/footer.svelte";
+
 </script>
 
 <main>
@@ -10,17 +12,41 @@
 
 <h2>Neoni's Songs</h2>
 <div class="container">
-<section class="line line-1">
-	<a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt=""></a>
-	<a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt=""></a>
+<section class="line line-1">		  
+<div class="tooltip">
+	<span class="tooltiptext">Darkside Neoni</span>
+		<a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img class="rcorners1"src="\images\Darkside Neoni.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Wonderland Neoni</span>
+		<a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img class="rcorners1"src="\images\Wonderland Neoni.jpg" alt=""></a>
+</div>
+	<div class="tooltip">
+		<span class="tooltiptext">Ghost Town Neoni</span>
 	<a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img class="rcorners1"src="\images\Ghost Town Neoni 2.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Loser Neoni</span>
 	<a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img class="rcorners1"src="\images\Loser Neoni.jpg" alt=""></a>
+</div>
 </section>
 <section class="line line-2">
+<div class="tooltip">
+	<span class="tooltiptext">Army Neoni</span>
 	<a href="https://www.youtube.com/watch?v=p8S7DKkHTwM"> <img class="rcorners1"src="\images\Army Neoni.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Fangs Neoni</span>
 	<a href="https://www.youtube.com/watch?v=YGVdUQFpKVs"> <img class="rcorners1"src="\images\fangs neoni 3.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Paranoia Neoni</span>
 	<a href="https://www.youtube.com/watch?v=tzTYs543Z2I"> <img class="rcorners1"src="\images\parnoia Neoni.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Horror Movies Neoni</span>
 	<a href="https://www.youtube.com/watch?v=fsoVw4FOvxw"> <img class="rcorners1"src="\images\Horror Movies.jpg" alt=""></a>
+</div>
 </section>
 <section class="line line-3">
 	<a href="https://www.youtube.com/watch?v=o5h_-wPerUg"> <img class="rcorners1"src="\images\Donwfall.jpg" alt=""></a>
@@ -119,53 +145,83 @@
 	<a href="https://www.youtube.com/watch?v=NvDjXI0u9YQ"><img class="rcorners1"src="\images\wreckage neoni.jpg" alt=""></a>
 </section>
 </div>
-
 <a href="#" class="top">Back to Top &#8593;</a>
-<!--Style the images-->
-<footer>
-    <ul>
-        <li><img src="\images\Dark mode youtube.png" alt=""></li>
-        <li><img src="\images\Dark mode Facebook.png" alt=""></li>
-        <li><img src="\images\Dark mode spotify.png" alt=""></li>
-        <li><img src="\images\Dark Mode Music.png" alt=""></li>
-		<li><img src="\images\Dark Mode Insta.png" alt=""></li>
-		<li><img src="\images\Dark Mode Twitter.png" alt=""></li>
-		<li><img src="\images\Dark Mode Tik Tok.png" alt=""></li>
-    </ul>
-</footer>
-<!--On hover displays the title and artist(s) of the songs-->
-<style>
-	.top {
-  
-  position: sticky;
-  bottom: 20px;      
-  margin-right:10px; 
-  place-self: end;
-  margin-top: 200vh;
-  margin-left: 170vh;
-  
-  /* visual styling */
-  text-decoration: none;
-  padding: 10px;
-  font-family: sans-serif;
-  color: #fff;
-  background: #000;
-  border-radius: 100px;
-  white-space: nowrap;
-}
 
-	.top:hover {
-		color: rgba(214, 209, 209, 0.952);
+<main>
+    <Footer />
+    <slot />
+</main>
+<style>	
+.rcorners1 {
+    border-radius: 25px;
+    border: 2px solid transparent;
+	max-width: 350px;
+    max-height: 350px;
+    min-width: 350px;
+    min-height: 350px;
+}
+.rcorners1:hover {
+    opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+    .rcorners1{
+        display: inline-block;
+        max-width: 150px;
+        max-height: 150px;
+        min-width: 150px;
+        min-height: 150px;
+
+    }
+    .line {
+        grid-row: 1;
+        grid-row-end: 1;
 	}
-	
+}
 .line {
 	display: flex;
 	justify-content: center;
 	justify-items: center;
 }
-.line-1 {
-	grid-row-start: 1;
-	grid-row-end: 1;
-	grid-row: 1;
+.tooltip {
+  position: relative;
+  display: inline-block;
 }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.top {  
+	position: sticky;
+  	bottom: 20px;      
+  	margin-right:10px; 
+  	margin-top: 200vh;
+  	margin-left: 170vh;
+  
+  	/* visual styling */
+  	text-decoration: none;
+  	padding: 10px;
+  	font-family: sans-serif;
+  	color: #fff;
+  	background: #000;
+  	border-radius: 100px;
+}
+
+.top:hover {
+		color: rgba(214, 209, 209, 0.952);
+}
+
 </style>

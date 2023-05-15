@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
 html {
+    margin: auto;
     scroll-behavior: smooth;
 }
 body {
@@ -12,34 +12,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/*Start of the Footer Code*/
-footer {
-    background-color: #F22771;
-	color: #ececec;
-}
-footer ul {
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-	text-decoration: none;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-footer li a {
-    
-    display: block;
-	color: #ececec;
-	text-align: center;
-	padding: 20px 16px;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	color: #ececec;
-}
-
-/*text*/
 h1 {
     font-size: 6vh;
     text-align: center;
@@ -50,21 +22,41 @@ h1 a {
     color: goldenrod;
 }
 h1 a:hover {
-    color: #5a0d5a;
+    color: #b65fcf;
 }
 h2 {
     text-align: center;
     font-size: 3.5vh;
 }
+h3 {
+    padding-left: 40px;
+    font-size: 2.5vh;
+}
 
-.rcorners1 {
-    border-radius: 25px;
-    border: 2px solid transparent;
-	max-width: 350px;
-    max-height: 350px;
-    min-width: 350px;
-    min-height: 350px;
+
+/*Start of Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
 }
-.rcorners1:hover {
-    opacity: 0.8;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/*End of Media Queries*/

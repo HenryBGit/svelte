@@ -1,12 +1,15 @@
 <link rel="stylesheet" href="\src\main.css"> 
 <script>
     import Navbar from "$lib/navbar.svelte";
+    import Footer from "$lib/footer.svelte";
 </script>
 
 <main>
     <Navbar/>
     <slot/>
 </main>
+
+
 
 <h2>About Neoni</h2>
 <h3>What are Neoni?</h3>
@@ -26,10 +29,7 @@
 </div>
 <br>
 <br>
-<footer>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/Artist songs"> Songs</a></li>
-        <li><a href="/about"> About Neoni</a></li>
-    </ul>
-</footer>
+<main>
+    <Footer />
+    <slot />
+</main>
