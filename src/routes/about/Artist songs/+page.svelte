@@ -49,8 +49,14 @@
 </div>
 </section>
 <section class="line line-3">
+<div class="tooltip">
+	<span class="tooltiptext">Downfall Neoni</span>
 	<a href="https://www.youtube.com/watch?v=o5h_-wPerUg"> <img class="rcorners1"src="\images\Donwfall.jpg" alt=""></a>
+</div>
+<div class="tooltip">
+	<span class="tooltiptext">Pinky Promise Neoni</span>
 	<a href="https://www.youtube.com/watch?v=xiMVIMNx4aM"> <img class="rcorners1"src="\images\Pinky Promise.jpg" alt=""></a>
+</div>
 	<a href="https://www.youtube.com/watch?v=oILljVDOkwY"><img class="rcorners1"src="\images\Doomsday.jpg" alt=""></a>
 	<a href="https://www.youtube.com/watch?v=qKvj12YTtI4"> <img class="rcorners1"src="\images\carry on wayward song.jpg" alt=""></a>
 </section>

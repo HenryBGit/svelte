@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li><a href="/"> <img class="logo-img" alt="" src="Neoni Logo.png">Neoni | </a></li>
+        <li><a href="/"> Neoni | </a></li>
         <li><a href="/about/Artist songs"> Songs | </a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
