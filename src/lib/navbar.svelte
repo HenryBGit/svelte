@@ -1,14 +1,14 @@
 <nav>
     <ul>
-        <li><a href="/"> Neoni | </a></li>
-        <li><a href="/about/Artist songs"> Songs | </a></li>
+        <li><a href="/"> Neoni </a></li>
+        <li><a href="/about/Artist songs">Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
 <style>   
 nav {
     margin: auto;
-    background-color: #F22771;   
+    background-color: #ba0071;   
 }
 nav ul  {
     display: flex;
@@ -21,6 +21,7 @@ nav ul  {
 	overflow: hidden;
 }
 nav li a {
+    padding: 16px 15px;
     font-size: 30px;
 	color: #ececec;
 	text-align: center;
