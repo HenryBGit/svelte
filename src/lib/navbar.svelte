@@ -7,21 +7,20 @@
 </nav>
 <style>   
 nav {
-    margin: auto;
-    background-color: #ba0071;   
+    background-color: var(--nav-foot-main);   
 }
-nav ul  {
+nav ul {
     display: flex;
 	justify-content: center;
-	justify-items: center;
 	text-decoration: none;
 	list-style-type: none;
+    line-height: 45px;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 nav li a {
-    padding: 16px 15px;
+    padding: 15px;
     font-size: 30px;
 	color: #ececec;
 	text-align: center;
