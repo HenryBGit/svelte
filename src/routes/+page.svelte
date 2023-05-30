@@ -10,5 +10,3 @@
 	<MainImage/>
 	<slot/>
 </main>
-
-<h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>

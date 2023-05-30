@@ -1,3 +1,12 @@
+<h2>About Neoni</h2>
+<h3>What are Neoni?</h3>
+<p></p>
+<h3>What type of songs do they make?</h3>
+<p></p>
+<h3>How popular are they?</h3>
+<p></p>
+
+
 <h2>Fan Favorites</h2>
 <div class="container">
     <section class="item item-1"> <a href="https://www.youtube.com/watch?v=lW9ep22YmlM"> <img src="\images\Royalty Album Cover.jpg" alt=""></a> </section>
