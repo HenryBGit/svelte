@@ -13,19 +13,18 @@
             <span class="tooltiptext">{song.name} by Neoni</span>
                 <a href={song.link}> <img class="rcorners1"src={song.image.split("/revision")[0]} alt=""></a>
         </div>
-        </section>
-        
-        </div>
-        {/each}
-
+    </section>
+</div>
+{/each}
 
 <style>
-    .rcorners1 {
+.rcorners1 {
     border-radius: 25px;
     border: 2px solid transparent;
     width: 350px;
     height: 350px;
 }
+
 .rcorners1:hover {
     opacity: 0.8;
 }
@@ -35,6 +34,7 @@
 	justify-content: center;
 	justify-items: center;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -57,21 +57,4 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
-
-
-/* @media only screen and (max-width: 600px) {
-    .rcorners1{
-        display: inline-block;
-        max-width: 150px;
-        max-height: 150px;
-        min-width: 150px;
-        min-height: 150px;
-
-    }
-    .line {
-        grid-row: 1;
-        grid-row-end: 1;
-	} 
-}*/
 </style>
