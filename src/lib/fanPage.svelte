@@ -1,5 +1,5 @@
 <h2>About Neoni</h2>
-<h3>What are Neoni?</h3>
+<h3>Who are Neoni?</h3>
 <p></p>
 <h3>What type of songs do they make?</h3>
 <p></p>

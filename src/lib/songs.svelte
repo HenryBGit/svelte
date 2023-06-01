@@ -11,7 +11,7 @@
     <section class="line">
         <div class="tooltip">
             <span class="tooltiptext">{song.name} by Neoni</span>
-                <a href={song.link}> <img class="rcorners1"src={song.image.split("/revision")[0]} alt=""></a>
+                <a href={song.link}> <img class="rcorners1"src={song.image.split("/revision")[0]} alt={song.name}></a>
         </div>
     </section>
 </div>
@@ -30,7 +30,7 @@
 }
 
 .line {
-	display: flex;
+	display: grid;
 	justify-content: center;
 	justify-items: center;
 }
