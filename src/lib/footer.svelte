@@ -23,9 +23,8 @@ footer ul {
 	padding: 0;
 }
 footer li img {    
-	height: 38%;
 	padding: 10px 15px;
-    justify-items: center;
+	justify-items: center;
 }
 footer li img:hover {
 	background-color: #ec008c;

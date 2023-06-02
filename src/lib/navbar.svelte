@@ -26,7 +26,7 @@ nav li a {
 	text-align: center;
     justify-items: center;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cinzel', serif;
 }
 nav li a:hover {
     background-color: #ec008c;
