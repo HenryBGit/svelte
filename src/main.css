@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 60px;
     text-align: center;
 }
 h1 a {
@@ -31,13 +31,17 @@ h1 a:hover {
 }
 h2 {
     text-align: center;
-    font-size: 3.5vh;
+    font-size: 45px;
 }
 h3 {
     padding-left: 40px;
-    font-size: 2.5vh;
+    font-size:  30px;
 }
+p {
+    padding-left: 40px;
+    font-size: 25px;
 
+}
 
 /*Start of Media Queries*/
 /* Extra small devices (phones, 600px and down) */

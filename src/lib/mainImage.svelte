@@ -5,7 +5,7 @@
 <style>
 .main-image-container {
 	width: 100%;
-	height: 60vh;
+	height: 35rem;
 	display: block;
 	overflow: hidden;
 	}
@@ -15,4 +15,11 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+/*Start of Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.main-image-container {
+		height: 10rem;
+	}
+} 
 </style>
