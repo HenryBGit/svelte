@@ -6,6 +6,7 @@
 
 <h2>Neoni's Songs</h2>
 <section class="grid">
+
 {#each songs as song}
         <div class="tooltip">
             <span class="tooltiptext">{song.name} by Neoni</span>
@@ -50,6 +51,11 @@
   z-index: 1;
 }
 
+.triangle-mask {
+  -webkit-mask-image: url("traingle.svg") ;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
