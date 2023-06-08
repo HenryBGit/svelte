@@ -47,12 +47,6 @@
   position: absolute;
   z-index: 1;
 }
-
-.triangle-mask {
-  -webkit-mask-image: url("traingle.svg") ;
-  -webkit-mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-}
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }

@@ -9,23 +9,18 @@
 
 <h2>Fan Favorites</h2>
 <div class="container">
-
     <div class="upside-triangle-mask"> 
         <a href="https://www.youtube.com/watch?v=lW9ep22YmlM"> <img src="\images\Royalty Album Cover.jpg" alt=""></a> 
     </div>
-
     <div class="triangle-mask"> 
-        <a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img src="\images\Darkside Neoni.jpg" alt=""></a> 
-    </div>
-
+        <a href="https://www.youtube.com/watch?v=UgKNP8GHnuk"> <img src="\images\Darkside Neoni.jpg" alt=""></a>
+    </div> 
     <div class="upside-triangle-mask">
         <a href="https://www.youtube.com/watch?v=0bTVSSiAgZs"> <img src="\images\Wonderland Neoni.jpg" alt=""> </a>
     </div>
-
     <div class="triangle-mask">
         <a href="https://www.youtube.com/watch?v=d79nXbLUUh4"> <img src="\images\Ghost Town Neoni 2.jpg" alt=""></a>
     </div>
-
     <div class="upside-triangle-mask">
         <a href="https://www.youtube.com/watch?v=ErJjUbAPue0"> <img src = "\images\Loser Neoni.jpg" alt=""></a>
     </div>
@@ -35,6 +30,7 @@
         display: flex;
         width: 80%;
         margin:auto;
+        padding: 8px;
     }
     .upside-triangle-mask {
         min-width: 200px;
@@ -50,23 +46,9 @@
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
         justify-content: center;
     }
-    /*Do it the svelte way instead of that way*/
-    /*https://svelte.dev/repl/bc2f81c515e247fdba90e3b0b84c4414?version=3.46.2*/
-    .item {
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        width: 200%;
-    }
     img:hover {
         opacity: 0.7;
     }
-    .item-1{ grid-column:1; }
-    .item-2{ grid-column:3; }
-    .item-3{ grid-column:5; }
-    .item-4{ grid-column:2; }
-    .item-5{ grid-column:4; }    
-   
    img {
     width: 100%;
    }
