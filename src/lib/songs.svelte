@@ -29,9 +29,6 @@
 .rcorners1:hover {
     opacity: 0.8;
 }
-
-
-
 .tooltip {
   position: relative;
   display: inline-block;
