@@ -1,13 +1,13 @@
 <nav>
     <ul>
-        <li><a href="/"> Neoni </a></li>
-        <li><a href="/about/Artist songs">Songs</a></li>
+        <li><a href="/"> Neoni</a></li>
+        <li><a href="/artists-Songs">Songs</a></li>
         <li><a href="/about"> About Neoni</a></li>
     </ul>
 </nav>
 <style>   
 nav {
-    background-color: var(--nav-foot-main);   
+    background-color: var(--nav-foot-main);
 }
 nav ul {
     display: flex;

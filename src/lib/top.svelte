@@ -35,16 +35,19 @@ function scrollToTop() {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    text-shadow: 9px 6px 6px rgba(0,0,0,0.83);
 }
 .text {
   position: relative;
   right: 0%;
   width: 0%;
   opacity: 0;
-  color: white;
   font-size: 1.2em;
   font-weight: 600;
   transition-duration: .3s;
+  color: white;
+  text-shadow: 9px 6px 6px rgba(0,0,0,0.83);
+  
 }
 /* hover effect on button width */
 .Btn:hover {
@@ -52,7 +55,6 @@ function scrollToTop() {
   width: 125px;
   border-radius: 40px;
   transition-duration: .3s;
-  transform: 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
 .Btn:hover .sign {

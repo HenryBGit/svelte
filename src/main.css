@@ -26,9 +26,11 @@ h1 a {
     font-family: 'Dancing Script', cursive;
     color: goldenrod;
 }
+
 h1 a:hover {
-    color: #b65fcf;
+    color: rgb(170, 124, 10);
 }
+
 h2 {
     text-align: center;
     font-size: 45px;
@@ -40,7 +42,6 @@ h3 {
 p {
     padding-left: 40px;
     font-size: 25px;
-
 }
 
 /*Start of Media Queries*/

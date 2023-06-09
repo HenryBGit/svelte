@@ -6,7 +6,6 @@
 
 <h2>Neoni's Songs</h2>
 <section class="grid">
-
 {#each songs as song}
         <div class="tooltip">
             <span class="tooltiptext">{song.name} by Neoni</span>
