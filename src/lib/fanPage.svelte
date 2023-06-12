@@ -32,14 +32,16 @@
         margin:auto;
         padding: 8px;
     }
-    .upside-triangle-mask {
+    .upside-triangle-mask {               
         min-width: 200px;
         display: flex;
         overflow: hidden;
         clip-path: polygon(50% 100%, 0 0, 100% 0);
-        justify-content: center;
+        justify-content: center;        
     }
-    .triangle-mask {
+    /* put inside of a mdeia querie */
+   
+    .triangle-mask {        
         min-width: 200px;
         overflow: hidden;
         display: flex;
@@ -52,4 +54,80 @@
    img {
     width: 100%;
    }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .upside-triangle-mask {
+        display: inline;
+
+    }
+    .triangle-mask { 
+        display: column;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .upside-triangle-mask {
+        display: column;
+
+    }
+    .triangle-mask { 
+        display: column;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .upside-triangle-mask:nth-of-type(2n+3)
+    {
+        margin-left:-185px;
+    }
+
+    .triangle-mask:nth-of-type(2n+2)
+    {
+        margin-left:-185px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .upside-triangle-mask:nth-of-type(2n+3)
+    {
+        margin-left:-175px;
+    }
+
+    .triangle-mask:nth-of-type(2n+2)
+    {
+        margin-left:-175px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .upside-triangle-mask:nth-of-type(2n+3)
+    {
+        margin-left:-185px;
+    }
+
+    .triangle-mask:nth-of-type(2n+2)
+    {
+        margin-left:-185px;
+    }
+
+}
+/* Extra Extra large devices (large monitors, 1500ox and up) */
+@media only screen and (min-width: 1500px) {
+    .upside-triangle-mask:nth-of-type(2n+3)
+    {
+        margin-left:-245px;
+    }
+
+    .triangle-mask:nth-of-type(2n+2)
+    {
+        margin-left:-245px;
+    }
+}
 </style> 

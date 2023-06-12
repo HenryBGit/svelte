@@ -3,11 +3,11 @@
     let songs = songData;
 </script>
 
-
 <h2>Neoni's Songs</h2>
 <section class="grid">
 {#each songs as song}
         <div class="tooltip">
+          <a href="{song.link}">{song.name}</a>
             <span class="tooltiptext">{song.name} by Neoni</span>
             <a href={song.link}> <img class="rcorners1"src={song.image.split("/revision")[0]} alt={song.name}></a>
         </div>
@@ -18,7 +18,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   overflow: hidden;
-  justify-content: center;
 }
 
 .rcorners1 {
@@ -36,6 +35,11 @@
   position: relative;
   display: inline-block;
 }
+
+.tooltip p{
+  display:none;
+}
+
 
 .tooltiptext {
   visibility: hidden;
@@ -62,11 +66,18 @@
     width: 50%;
   }
   .rcorners1 {
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 100%;
-    min-height: 100%;
+    display: none;
+
   }
+
+  .tooltip p{
+  display:inline;
+  font-size: 15px;
+  justify-content:center ;
+}
+.tooltiptext{
+  display: none;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -1,27 +1,20 @@
-<section class="right">
 <button class="Btn" on:click={scrollToTop}>
     <div class="sign">&#x2B06</div>
     <div class="text">Back To Top</div>
 </button>
-</section>
 <script>  
 function scrollToTop() {
   window.scrollTo(0, 0);
 }
 </script>
 <style>
-.right {
-  padding-right: 15px;
-  padding-bottom: 7px;
-  display: flex;
-  justify-content: right;
-}
 /* Visual styling for the button */
 .Btn {
-  position: sticky;
   display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   align-items: center;
-  justify-content: flex-start;
   width: 60px;
   height: 60px;
   border: none;
@@ -29,7 +22,6 @@ function scrollToTop() {
   cursor: pointer;
   overflow: hidden;
   transition-duration: .3s;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
   background-color: #ab3f00;
 }
 
@@ -38,9 +30,6 @@ function scrollToTop() {
     color: #ececec;
     width: 100%;
     transition-duration: .3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 30px;
     text-shadow: 9px 6px 6px rgba(0,0,0,0.83);
 }
@@ -69,7 +58,6 @@ function scrollToTop() {
   transition-duration: .3s; 
   padding-left: 20px;
 }
-
 /* hover effect button's text */
 .Btn:hover .text {
   opacity: 1;
@@ -81,4 +69,32 @@ function scrollToTop() {
 .Btn:active {
   transform: translate(2px ,2px);
 }
+/*Start of Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Btn {
+    right: 5px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/*End of Media Queries*/
 </style>
