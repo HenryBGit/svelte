@@ -11,7 +11,7 @@
     <Navbar/>
     <slot/>
     <Songs/>
-	<Top/>
+    <Top/>
     <Footer />
     <slot />
 </main>

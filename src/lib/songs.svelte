@@ -17,9 +17,13 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  justify-content: center;
 }
 
 .rcorners1 {
+    justify-content: center;
+    justify-items: center;
     border-radius: 25px;
     width: 100%;
     height: 100%;
