@@ -17,19 +17,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
-h1 a {
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    color: goldenrod;
-}
 
-h1 a:hover {
-    color: rgb(170, 124, 10);
-}
 
 h2 {
     text-align: center;

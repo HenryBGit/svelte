@@ -65,36 +65,42 @@ function scrollToTop() {
   transition-duration: .3s;
   padding-right: 10px;
 }
-/* Button click effect */
-.Btn:active {
-  transform: translate(2px ,2px);
-}
+
 /*Start of Media Queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .Btn {
-    right: 5px;
+    display: none;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .Btn {
+    display: none;
+  }
     
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .Btn {
+  display: flex;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+.Btn {
+  display: flex;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .Btn {
+  display: flex;
+}
 }
 /*End of Media Queries*/
 </style>
