@@ -1,7 +1,8 @@
 <script>
   import {songData} from "./songs.js";
   let songs = songData;
-  
+
+  songs.sort((a, b) =>  a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1);
 </script>
 <h2>Neoni's Songs</h2>
 <section class="grid">
