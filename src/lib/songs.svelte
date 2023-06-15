@@ -1,38 +1,36 @@
 <script>
   import {songData} from "./songs.js";
   let songs = songData;
+  
 </script>
-
 <h2>Neoni's Songs</h2>
 <section class="grid">
 {#each songs as song}
       <div class="tooltip">
-        <a href="{song.link}">{song.name}</a>
+        <a class="hide" href="{song.link}">{song.name}</a> <!--Turns the image into text on phone view-->
           <span class="tooltiptext">{song.name} by Neoni</span>
-          <a href={song.link}> <img class="rcorners1"src={song.image.split("/revision")[0]} alt={song.name}></a>
+          <a href={song.link}><img class="rcorners1"src={song.image.split("/revision")[0]} alt={song.name}> </a>
       </div>
 {/each}
 </section>
 <style>
 a {
+  display: flex;
   color: white;
   text-decoration: none;
+  justify-content: center;
 }
 a:hover{
   color:orange;
 }
 .grid {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
 overflow: hidden;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin:auto;
 }
-
 .rcorners1 {
-  justify-content: center;
-  justify-items: center;
   border-radius: 25px;
-  width: 100%;
-  height: 100%;
 }
 
 .rcorners1:hover {
@@ -68,9 +66,13 @@ visibility: visible;
 }
 .rcorners1 {
   display: none;
+  
 }
 .tooltiptext{
 display: none;
+}
+a {
+  font-size: 15px;
 }
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -90,13 +92,17 @@ display: none;
 @media only screen and (min-width: 768px) {
 .grid {
   grid-template-columns: 1fr 1fr ;
-  width: 80%;
 }
 .rcorners1 {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 .tooltiptext {
   display: block;
+}
+.hide {
+  display: none;
 }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -107,9 +113,14 @@ display: none;
 }
 .rcorners1 {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 .tooltiptext {
   display: block;
+}
+.hide {
+  display: none;
 }
 }
 
@@ -124,6 +135,9 @@ display: none;
 }
 .tooltiptext {
   display: block;
+}
+.hide {
+  display: none;
 }
 }
 /*End of Media Queries*/

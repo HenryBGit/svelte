@@ -39,7 +39,7 @@ footer li i:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	footer li i {
-		font-size: 25px;
+		font-size: 15px;
 	}
 }
 

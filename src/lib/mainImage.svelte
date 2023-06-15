@@ -1,7 +1,7 @@
 <div class="main-image-container">
     <img class="background_image" src="\images\Neonoi Sisters.jpeg"  alt="">
 </div>
-<h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a><i class="fa-solid fa-crown"></i></h1>
+<h1>Welcome To <a href="https://www.youtube.com/watch?v=lW9ep22YmlM">Royalty</a></h1>
 <style>
 h1 {
     font-size: 60px;
@@ -15,11 +15,6 @@ h1 a {
 
 h1 a:hover {
     color: rgb(170, 124, 10);
-}
-i {
-	font-size: 50px;
-	color: goldenrod;
-	display: relative;
 }
 .main-image-container {
 	width: 100%;
