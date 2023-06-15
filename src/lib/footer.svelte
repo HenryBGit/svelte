@@ -4,7 +4,7 @@
         <li><a href="https://www.facebook.com/WeAreNeoni"><i class="fa-brands fa-facebook"></i></a></li>
         <li><a href="https://open.spotify.com/artist/38wxcfNEqMwuPniHvplin5"><i class="fa-brands fa-spotify"></i></a></li>
         <li><a href="https://music.apple.com/us/artist/neoni/1461573292"><i class="fa-brands fa-itunes-note"></i></a></li>
-		<li><a href="https://www.instagram.com/weareneoni/"><i class="fa-brands fa-instagram"></i></a></li>
+		<li><a href="https://www.instagram.com/weareneoni/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
 		<li><a href="https://twitter.com/WeAreNeoni"><i class="fa-brands fa-twitter"></i></a></li>
 		<li><a href="https://www.tiktok.com/@weareneoni"><i class="fa-brands fa-tiktok"></i></a></li>
     </ul>
