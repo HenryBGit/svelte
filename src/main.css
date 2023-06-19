@@ -20,22 +20,21 @@ body {
 h2 {
     text-align: center;
     font-size: 45px;
+    padding: 0px 50px;
 }
 h3 {
-    padding-left: 40px;
     font-size:  30px;
+    padding: 0px 50px;
 }
 p {
-    padding-left: 40px;
     font-size: 25px;
+    padding: 0px 50px;
 }
 
 /*Start of Media Queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-h2 {
-    font-size:15px ;
-}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

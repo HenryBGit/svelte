@@ -10,7 +10,7 @@
       <div class="tooltip">
         <a class="hide" href="{song.link}">{song.name}</a> <!--Turns the image into text on phone view-->
           <span class="tooltiptext">{song.name} by Neoni</span>
-          <a href={song.link}><img class="rcorners1"src={song.image.split("/revision")[0]} alt={song.name}> </a>
+          <a href={song.link} class="rcorners1" style="background-image:url({song.image.split("/revision")[0]})"> </a>
       </div>
 {/each}
 </section>
@@ -32,6 +32,10 @@ margin:auto;
 }
 .rcorners1 {
   border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .rcorners1:hover {
@@ -92,12 +96,12 @@ a {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .grid {
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  width: 75%;
 }
 .rcorners1 {
   display: flex;
-  width: 100%;
-  height: 100%;
+  
 }
 .tooltiptext {
   display: block;
@@ -114,8 +118,6 @@ a {
 }
 .rcorners1 {
   display: flex;
-  width: 100%;
-  height: 100%;
 }
 .tooltiptext {
   display: block;
@@ -133,6 +135,8 @@ a {
 }
 .rcorners1 {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 .tooltiptext {
   display: block;

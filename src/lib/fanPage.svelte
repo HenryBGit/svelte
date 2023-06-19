@@ -31,11 +31,11 @@
         width: 80%;
         margin:auto;
         padding: 8px;
+        justify-content: center;
     }
     .upside-triangle-mask {               
         min-width: 200px;
         display: flex;
-        overflow: hidden;
         clip-path: polygon(50% 100%, 0 0, 100% 0);
         justify-content: center;        
     }
@@ -43,7 +43,6 @@
    
     .triangle-mask {        
         min-width: 200px;
-        overflow: hidden;
         display: flex;
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
         justify-content: center;
@@ -56,39 +55,20 @@
    }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .upside-triangle-mask {
-
-    }
-    .triangle-mask { 
-
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .upside-triangle-mask {
-
-    }
-    .triangle-mask { 
-
+    .container {
+        flex-direction: column;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .upside-triangle-mask:nth-of-type(2n+3)
-    {
-        margin-left:-185px;
-    }
-
-    .triangle-mask:nth-of-type(2n+2)
-    {
-        margin-left:-185px;
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction:column ;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     .upside-triangle-mask:nth-of-type(2n+3)
     {
         margin-left:-175px;
@@ -102,7 +82,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .upside-triangle-mask:nth-of-type(2n+3)
     {
         margin-left:-185px;
@@ -115,7 +95,7 @@
 
 }
 /* Extra Extra large devices (large monitors, 1500ox and up) */
-@media only screen and (min-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     .upside-triangle-mask:nth-of-type(2n+3)
     {
         margin-left:-245px;
