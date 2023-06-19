@@ -66,7 +66,7 @@ function scrollToTop() {
   padding-right: 10px;
 }
 
-/*Start of Media Queries*/
+/* Turns the button off on smaller screens */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .Btn {
@@ -81,7 +81,7 @@ function scrollToTop() {
   }
     
 }
-
+/* Shows the button on larger devices */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .Btn {
