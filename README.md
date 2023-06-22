@@ -1,38 +1,16 @@
-# create-svelte2
+# HenryBGit's Readme
+## Repo Purpose
+> The main purpose of this repo is to allow users to see the creation process of the website that I made.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Technologies used
+> 1. Sveltekit
+> 2. Git Bash
+> 3. Visual Studio Code
 
-## Creating a project
+## Known bugs/issues
+> 1. The main issue with mine is that some things break when you change the size of the browser.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Future Roadmap
+> 1. In the future, I would like to get an API working on the site.
+> 2. I would like to make the page more responsive.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
